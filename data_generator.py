@@ -1,6 +1,10 @@
 import pandas as pd 
 from random import randint
 import numpy as np 
+import os 
+
+os.mkdir("static")
+
 
 num_processes = randint(30, 60)
 print(f"Number of processes created : {num_processes}")
