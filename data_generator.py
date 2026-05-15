@@ -2,11 +2,20 @@ import pandas as pd
 from random import randint
 import numpy as np 
 import os 
+from pathlib import Path
 
-os.mkdir("static")
+folder = Path("./static")
+
+# Check if it exists and is a directory
+if folder.is_dir():
+    print("The folder exists.")
+else:
+    print("Static folder has been created .")
+    os.mkdir("static")
 
 
-num_processes = randint(30, 60)
+# num_processes = randint(1, 10)
+num_processes = 10
 print(f"Number of processes created : {num_processes}")
 data_list = []
 # Creates a dataframe that contains Burst time, Process id, Arrival time . There should be a minimum of 30 processes 
