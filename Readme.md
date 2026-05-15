@@ -1,6 +1,6 @@
 Here's a brief and simple README:
 
-```markdown
+
 # Process Data Generator
 
 Generates random process scheduling data (arrival time & burst time) for 30-60 processes.
@@ -42,6 +42,5 @@ print(data.head())
 - **burst_time**: 0-50 time units
 
 
-```
 
 That's it! Just run the script and load the CSV with pandas.
