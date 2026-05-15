@@ -8,7 +8,7 @@ folder = Path("./static")
 
 # Check if it exists and is a directory
 if folder.is_dir():
-    print("The folder exists.")
+    print("Static folder exists.")
 else:
     print("Static folder has been created .")
     os.mkdir("static")
