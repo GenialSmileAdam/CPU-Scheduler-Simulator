@@ -1,0 +1,117 @@
+================================================================================
+SJF NON-PREEMPTIVE SIMULATION LOG
+Generated: 2026-05-16 21:55:29
+Total Processes: 20
+================================================================================
+
+[Time 0.00]     === SJF NON-PREEMPTIVE SIMULATION STARTED ===
+[Time 0.00]     Ready Queue: [P9(5), P10(33)]
+[Time 0.00]     Process P9 gets CPU for the FIRST TIME (response time = 0.00)
+[Time 5.00]     P9 runs from 0.00 to 5.00 (duration: 5)
+[Time 5.00]     [COMPLETED] P9 finished! (TAT=5.00, WT=0.00)
+[Time 5.00]     Progress: 1/20 processes completed
+[Time 5.00]     Ready Queue: [P5(7), P12(12), P10(33)]
+[Time 5.00]     Process P5 gets CPU for the FIRST TIME (response time = 1.00)
+[Time 12.00]    P5 runs from 5.00 to 12.00 (duration: 7)
+[Time 12.00]    [COMPLETED] P5 finished! (TAT=8.00, WT=1.00)
+[Time 12.00]    Progress: 2/20 processes completed
+[Time 12.00]    Ready Queue: [P12(12), P20(14), P8(23), P3(26), P10(33), P6(37), P11(37), P7(37)]
+[Time 12.00]    Process P12 gets CPU for the FIRST TIME (response time = 11.00)
+[Time 24.00]    P12 runs from 12.00 to 24.00 (duration: 12)
+[Time 24.00]    [COMPLETED] P12 finished! (TAT=23.00, WT=11.00)
+[Time 24.00]    Progress: 3/20 processes completed
+[Time 24.00]    Ready Queue: [P2(5), P1(9), P17(10), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 24.00]    Process P2 gets CPU for the FIRST TIME (response time = 7.00)
+[Time 29.00]    P2 runs from 24.00 to 29.00 (duration: 5)
+[Time 29.00]    [COMPLETED] P2 finished! (TAT=12.00, WT=7.00)
+[Time 29.00]    Progress: 4/20 processes completed
+[Time 29.00]    Ready Queue: [P16(4), P1(9), P17(10), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 29.00]    Process P16 gets CPU for the FIRST TIME (response time = 0.00)
+[Time 33.00]    P16 runs from 29.00 to 33.00 (duration: 4)
+[Time 33.00]    [COMPLETED] P16 finished! (TAT=4.00, WT=0.00)
+[Time 33.00]    Progress: 5/20 processes completed
+[Time 33.00]    Ready Queue: [P1(9), P17(10), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 33.00]    Process P1 gets CPU for the FIRST TIME (response time = 20.00)
+[Time 42.00]    P1 runs from 33.00 to 42.00 (duration: 9)
+[Time 42.00]    [COMPLETED] P1 finished! (TAT=29.00, WT=20.00)
+[Time 42.00]    Progress: 6/20 processes completed
+[Time 42.00]    Ready Queue: [P17(10), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 42.00]    Process P17 gets CPU for the FIRST TIME (response time = 18.00)
+[Time 52.00]    P17 runs from 42.00 to 52.00 (duration: 10)
+[Time 52.00]    [COMPLETED] P17 finished! (TAT=28.00, WT=18.00)
+[Time 52.00]    Progress: 7/20 processes completed
+[Time 52.00]    Ready Queue: [P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 52.00]    Process P18 gets CPU for the FIRST TIME (response time = 24.00)
+[Time 65.00]    P18 runs from 52.00 to 65.00 (duration: 13)
+[Time 65.00]    [COMPLETED] P18 finished! (TAT=37.00, WT=24.00)
+[Time 65.00]    Progress: 8/20 processes completed
+[Time 65.00]    Ready Queue: [P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 65.00]    Process P20 gets CPU for the FIRST TIME (response time = 54.00)
+[Time 79.00]    P20 runs from 65.00 to 79.00 (duration: 14)
+[Time 79.00]    [COMPLETED] P20 finished! (TAT=68.00, WT=54.00)
+[Time 79.00]    Progress: 9/20 processes completed
+[Time 79.00]    Ready Queue: [P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 79.00]    Process P13 gets CPU for the FIRST TIME (response time = 57.00)
+[Time 94.00]    P13 runs from 79.00 to 94.00 (duration: 15)
+[Time 94.00]    [COMPLETED] P13 finished! (TAT=72.00, WT=57.00)
+[Time 94.00]    Progress: 10/20 processes completed
+[Time 94.00]    Ready Queue: [P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 94.00]    Process P8 gets CPU for the FIRST TIME (response time = 85.00)
+[Time 117.00]   P8 runs from 94.00 to 117.00 (duration: 23)
+[Time 117.00]   [COMPLETED] P8 finished! (TAT=108.00, WT=85.00)
+[Time 117.00]   Progress: 11/20 processes completed
+[Time 117.00]   Ready Queue: [P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 117.00]   Process P3 gets CPU for the FIRST TIME (response time = 105.00)
+[Time 143.00]   P3 runs from 117.00 to 143.00 (duration: 26)
+[Time 143.00]   [COMPLETED] P3 finished! (TAT=131.00, WT=105.00)
+[Time 143.00]   Progress: 12/20 processes completed
+[Time 143.00]   Ready Queue: [P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 143.00]   Process P14 gets CPU for the FIRST TIME (response time = 125.00)
+[Time 170.00]   P14 runs from 143.00 to 170.00 (duration: 27)
+[Time 170.00]   [COMPLETED] P14 finished! (TAT=152.00, WT=125.00)
+[Time 170.00]   Progress: 13/20 processes completed
+[Time 170.00]   Ready Queue: [P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 170.00]   Process P10 gets CPU for the FIRST TIME (response time = 170.00)
+[Time 203.00]   P10 runs from 170.00 to 203.00 (duration: 33)
+[Time 203.00]   [COMPLETED] P10 finished! (TAT=203.00, WT=170.00)
+[Time 203.00]   Progress: 14/20 processes completed
+[Time 203.00]   Ready Queue: [P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 203.00]   Process P6 gets CPU for the FIRST TIME (response time = 195.00)
+[Time 240.00]   P6 runs from 203.00 to 240.00 (duration: 37)
+[Time 240.00]   [COMPLETED] P6 finished! (TAT=232.00, WT=195.00)
+[Time 240.00]   Progress: 15/20 processes completed
+[Time 240.00]   Ready Queue: [P11(37), P7(37), P19(39), P4(41), P15(47)]
+[Time 240.00]   Process P11 gets CPU for the FIRST TIME (response time = 232.00)
+[Time 277.00]   P11 runs from 240.00 to 277.00 (duration: 37)
+[Time 277.00]   [COMPLETED] P11 finished! (TAT=269.00, WT=232.00)
+[Time 277.00]   Progress: 16/20 processes completed
+[Time 277.00]   Ready Queue: [P7(37), P19(39), P4(41), P15(47)]
+[Time 277.00]   Process P7 gets CPU for the FIRST TIME (response time = 268.00)
+[Time 314.00]   P7 runs from 277.00 to 314.00 (duration: 37)
+[Time 314.00]   [COMPLETED] P7 finished! (TAT=305.00, WT=268.00)
+[Time 314.00]   Progress: 17/20 processes completed
+[Time 314.00]   Ready Queue: [P19(39), P4(41), P15(47)]
+[Time 314.00]   Process P19 gets CPU for the FIRST TIME (response time = 301.00)
+[Time 353.00]   P19 runs from 314.00 to 353.00 (duration: 39)
+[Time 353.00]   [COMPLETED] P19 finished! (TAT=340.00, WT=301.00)
+[Time 353.00]   Progress: 18/20 processes completed
+[Time 353.00]   Ready Queue: [P4(41), P15(47)]
+[Time 353.00]   Process P4 gets CPU for the FIRST TIME (response time = 330.00)
+[Time 394.00]   P4 runs from 353.00 to 394.00 (duration: 41)
+[Time 394.00]   [COMPLETED] P4 finished! (TAT=371.00, WT=330.00)
+[Time 394.00]   Progress: 19/20 processes completed
+[Time 394.00]   Ready Queue: [P15(47)]
+[Time 394.00]   Process P15 gets CPU for the FIRST TIME (response time = 370.00)
+[Time 441.00]   P15 runs from 394.00 to 441.00 (duration: 47)
+[Time 441.00]   [COMPLETED] P15 finished! (TAT=417.00, WT=370.00)
+[Time 441.00]   Progress: 20/20 processes completed
+[Time 441.00]   === SJF NON-PREEMPTIVE SIMULATION COMPLETED ===
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+Average Turnaround Time (ATT): 140.70
+Average Waiting Time (AWT):    118.65
+Average Response Time (ART):   118.65
+Total Context Switches:        19
+Total Completion Time:          441

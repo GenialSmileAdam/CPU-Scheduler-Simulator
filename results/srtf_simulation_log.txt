@@ -1,190 +1,151 @@
-================================================== SRTF STARTED ==================================================
-[T1] P15 arrived
-[T1] P15 first run (RT=0)
-[T1->2] P15 runs (rem=3)
-[T2] P39 arrived
-[T2->5] P15 runs (rem=0)
-[DONE] P15 (TAT=4, WT=0) [1/40]
-[T5] P39 first run (RT=3)
-[T5->6] P39 runs (rem=5)
-[T6] P20 arrived
-[T6->7] P39 runs (rem=4)
-[T7] P33 arrived
-[T7->10] P39 runs (rem=1)
-[T10] P11 arrived
-[T10->11] P39 runs (rem=0)
-[DONE] P39 (TAT=9, WT=3) [2/40]
-[T11] P20 first run (RT=5)
-[T11->12] P20 runs (rem=20)
-[T12] P4 arrived
-[T12] P4 first run (RT=0)
-[T12->13] P4 runs (rem=2)
-[T13] P5 arrived
-[T13->14] P4 runs (rem=1)
-[T14] P0 arrived
-[T14->15] P4 runs (rem=0)
-[DONE] P4 (TAT=3, WT=0) [3/40]
-[T15] P17 arrived
-[T15] P17 first run (RT=0)
-[T15->16] P17 runs (rem=0)
-[DONE] P17 (TAT=1, WT=0) [4/40]
-[T16] P35 arrived
-[T16] P5 first run (RT=3)
-[T16->17] P5 runs (rem=1)
-[T17] P22 arrived
-[T17->18] P5 runs (rem=0)
-[DONE] P5 (TAT=5, WT=3) [5/40]
-[T18] P35 first run (RT=2)
-[T18->20] P35 runs (rem=15)
-[T20] P34 arrived
-[T20->22] P35 runs (rem=13)
-[T22] P26 arrived
-[T22] P29 arrived
-[T22] P26 first run (RT=0)
-[T22->24] P26 runs (rem=2)
-[T24] P25 arrived
-[T24->25] P26 runs (rem=1)
-[T25] P37 arrived
-[T25->26] P26 runs (rem=0)
-[DONE] P26 (TAT=4, WT=0) [6/40]
-[T26->30] P35 runs (rem=9)
-[T30] P6 arrived
-[T30] P31 arrived
-[T30] P32 arrived
-[T30->32] P35 runs (rem=7)
-[T32] P19 arrived
-[T32->33] P35 runs (rem=6)
-[T33] P9 arrived
-[T33] P23 arrived
-[T33] P27 arrived
-[T33->34] P35 runs (rem=5)
-[T34] P13 arrived
-[T34] P28 arrived
-[T34] P28 first run (RT=0)
-[T34->35] P28 runs (rem=1)
-[T35] P21 arrived
-[T35->36] P28 runs (rem=0)
-[DONE] P28 (TAT=2, WT=0) [7/40]
-[T36] P36 arrived
-[T36] P21 first run (RT=1)
-[T36->38] P21 runs (rem=2)
-[T38] P7 arrived
-[T38] P30 arrived
-[T38->40] P21 runs (rem=0)
-[DONE] P21 (TAT=5, WT=1) [8/40]
-[T40->41] P35 runs (rem=4)
-[T41] P2 arrived
-[T41->42] P35 runs (rem=3)
-[T42] P18 arrived
-[T42->43] P35 runs (rem=2)
-[T43] P12 arrived
-[T43->45] P35 runs (rem=0)
-[DONE] P35 (TAT=29, WT=12) [9/40]
-[T45] P3 arrived
-[T45] P8 arrived
-[T45] P24 arrived
-[T45] P12 first run (RT=2)
-[T45->47] P12 runs (rem=0)
-[DONE] P12 (TAT=4, WT=2) [10/40]
-[T47] P1 arrived
-[T47] P30 first run (RT=9)
-[T47->49] P30 runs (rem=7)
-[T49] P14 arrived
-[T49] P38 arrived
-[T49->50] P30 runs (rem=6)
-[T50] P10 arrived
-[T50] P16 arrived
-[T50->56] P30 runs (rem=0)
-[DONE] P30 (TAT=18, WT=9) [11/40]
-[T56] P14 first run (RT=7)
-[T56->64] P14 runs (rem=0)
-[DONE] P14 (TAT=15, WT=7) [12/40]
-[T64] P16 first run (RT=14)
-[T64->72] P16 runs (rem=0)
-[DONE] P16 (TAT=22, WT=14) [13/40]
-[T72] P6 first run (RT=42)
-[T72->82] P6 runs (rem=0)
-[DONE] P6 (TAT=52, WT=42) [14/40]
-[T82] P7 first run (RT=44)
-[T82->94] P7 runs (rem=0)
-[DONE] P7 (TAT=56, WT=44) [15/40]
-[T94] P23 first run (RT=61)
-[T94->108] P23 runs (rem=0)
-[DONE] P23 (TAT=75, WT=61) [16/40]
-[T108] P34 first run (RT=88)
-[T108->123] P34 runs (rem=0)
-[DONE] P34 (TAT=103, WT=88) [17/40]
-[T123] P36 first run (RT=87)
-[T123->141] P36 runs (rem=0)
-[DONE] P36 (TAT=105, WT=87) [18/40]
-[T141->161] P20 runs (rem=0)
-[DONE] P20 (TAT=155, WT=134) [19/40]
-[T161] P8 first run (RT=116)
-[T161->181] P8 runs (rem=0)
-[DONE] P8 (TAT=136, WT=116) [20/40]
-[T181] P37 first run (RT=156)
-[T181->202] P37 runs (rem=0)
-[DONE] P37 (TAT=177, WT=156) [21/40]
-[T202] P32 first run (RT=172)
-[T202->223] P32 runs (rem=0)
-[DONE] P32 (TAT=193, WT=172) [22/40]
-[T223] P31 first run (RT=193)
-[T223->245] P31 runs (rem=0)
-[DONE] P31 (TAT=215, WT=193) [23/40]
-[T245] P33 first run (RT=238)
-[T245->270] P33 runs (rem=0)
-[DONE] P33 (TAT=263, WT=238) [24/40]
-[T270] P29 first run (RT=248)
-[T270->296] P29 runs (rem=0)
-[DONE] P29 (TAT=274, WT=248) [25/40]
-[T296] P22 first run (RT=279)
-[T296->327] P22 runs (rem=0)
-[DONE] P22 (TAT=310, WT=279) [26/40]
-[T327] P9 first run (RT=294)
-[T327->358] P9 runs (rem=0)
-[DONE] P9 (TAT=325, WT=294) [27/40]
-[T358] P1 first run (RT=311)
-[T358->392] P1 runs (rem=0)
-[DONE] P1 (TAT=345, WT=311) [28/40]
-[T392] P0 first run (RT=378)
-[T392->431] P0 runs (rem=0)
-[DONE] P0 (TAT=417, WT=378) [29/40]
-[T431] P18 first run (RT=389)
-[T431->470] P18 runs (rem=0)
-[DONE] P18 (TAT=428, WT=389) [30/40]
-[T470] P13 first run (RT=436)
-[T470->510] P13 runs (rem=0)
-[DONE] P13 (TAT=476, WT=436) [31/40]
-[T510] P2 first run (RT=469)
-[T510->550] P2 runs (rem=0)
-[DONE] P2 (TAT=509, WT=469) [32/40]
-[T550] P24 first run (RT=505)
-[T550->592] P24 runs (rem=0)
-[DONE] P24 (TAT=547, WT=505) [33/40]
-[T592] P19 first run (RT=560)
-[T592->635] P19 runs (rem=0)
-[DONE] P19 (TAT=603, WT=560) [34/40]
-[T635] P27 first run (RT=602)
-[T635->678] P27 runs (rem=0)
-[DONE] P27 (TAT=645, WT=602) [35/40]
-[T678] P10 first run (RT=628)
-[T678->722] P10 runs (rem=0)
-[DONE] P10 (TAT=672, WT=628) [36/40]
-[T722] P11 first run (RT=712)
-[T722->768] P11 runs (rem=0)
-[DONE] P11 (TAT=758, WT=712) [37/40]
-[T768] P38 first run (RT=719)
-[T768->814] P38 runs (rem=0)
-[DONE] P38 (TAT=765, WT=719) [38/40]
-[T814] P3 first run (RT=769)
-[T814->863] P3 runs (rem=0)
-[DONE] P3 (TAT=818, WT=769) [39/40]
-[T863] P25 first run (RT=839)
-[T863->913] P25 runs (rem=0)
-[DONE] P25 (TAT=889, WT=839) [40/40]
-================================================== SRTF COMPLETED ==================================================
+============================================================
+SRTF SIMULATION STARTED
+============================================================
+[T0] P9 arrived
+[T0] P10 arrived
+  Ready Queue: [P9(5), P10(33)]
+[T0] P9 FIRST RUN (RT=0)
+[T0->1] P9 runs (rem=4)
+[PREEMPTED] P9 added back to queue
+[T1] P12 arrived
+  Ready Queue: [P9(4), P12(12), P10(33)]
+[T1->4] P9 runs (rem=1)
+[PREEMPTED] P9 added back to queue
+[T4] P5 arrived
+  Ready Queue: [P9(1), P5(7), P12(12), P10(33)]
+[T4->5] P9 runs (rem=0)
+[DONE] P9 (TAT=5, WT=0) [1/20]
+  Ready Queue: [P5(7), P12(12), P10(33)]
+[T5] P5 FIRST RUN (RT=1)
+[T5->8] P5 runs (rem=4)
+[PREEMPTED] P5 added back to queue
+[T8] P6 arrived
+[T8] P11 arrived
+  Ready Queue: [P5(4), P12(12), P10(33), P6(37), P11(37)]
+[T8->9] P5 runs (rem=3)
+[PREEMPTED] P5 added back to queue
+[T9] P7 arrived
+[T9] P8 arrived
+  Ready Queue: [P5(3), P12(12), P8(23), P10(33), P6(37), P11(37), P7(37)]
+[T9->11] P5 runs (rem=1)
+[PREEMPTED] P5 added back to queue
+[T11] P20 arrived
+  Ready Queue: [P5(1), P12(12), P20(14), P8(23), P10(33), P6(37), P11(37), P7(37)]
+[T11->12] P5 runs (rem=0)
+[DONE] P5 (TAT=8, WT=1) [2/20]
+[T12] P3 arrived
+  Ready Queue: [P12(12), P20(14), P8(23), P3(26), P10(33), P6(37), P11(37), P7(37)]
+[T12] P12 FIRST RUN (RT=11)
+[T12->13] P12 runs (rem=11)
+[PREEMPTED] P12 added back to queue
+[T13] P1 arrived
+[T13] P19 arrived
+  Ready Queue: [P1(9), P12(11), P20(14), P8(23), P3(26), P10(33), P6(37), P11(37), P7(37), P19(39)]
+[T13] P1 FIRST RUN (RT=0)
+[T13->17] P1 runs (rem=5)
+[PREEMPTED] P1 added back to queue
+[T17] P2 arrived
+  Ready Queue: [P1(5), P2(5), P12(11), P20(14), P8(23), P3(26), P10(33), P6(37), P11(37), P7(37), P19(39)]
+[T17->18] P1 runs (rem=4)
+[PREEMPTED] P1 added back to queue
+[T18] P14 arrived
+  Ready Queue: [P1(4), P2(5), P12(11), P20(14), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39)]
+[T18->22] P1 runs (rem=0)
+[DONE] P1 (TAT=9, WT=0) [3/20]
+[T22] P13 arrived
+  Ready Queue: [P2(5), P12(11), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39)]
+[T22] P2 FIRST RUN (RT=5)
+[T22->23] P2 runs (rem=4)
+[PREEMPTED] P2 added back to queue
+[T23] P4 arrived
+  Ready Queue: [P2(4), P12(11), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41)]
+[T23->24] P2 runs (rem=3)
+[PREEMPTED] P2 added back to queue
+[T24] P15 arrived
+[T24] P17 arrived
+  Ready Queue: [P2(3), P17(10), P12(11), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T24->27] P2 runs (rem=0)
+[DONE] P2 (TAT=10, WT=5) [4/20]
+  Ready Queue: [P17(10), P12(11), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T27] P17 FIRST RUN (RT=3)
+[T27->28] P17 runs (rem=9)
+[PREEMPTED] P17 added back to queue
+[T28] P18 arrived
+  Ready Queue: [P17(9), P12(11), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T28->29] P17 runs (rem=8)
+[PREEMPTED] P17 added back to queue
+[T29] P16 arrived
+  Ready Queue: [P16(4), P17(8), P12(11), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T29] P16 FIRST RUN (RT=0)
+[T29->33] P16 runs (rem=0)
+[DONE] P16 (TAT=4, WT=0) [5/20]
+  Ready Queue: [P17(8), P12(11), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T33->41] P17 runs (rem=0)
+[DONE] P17 (TAT=17, WT=7) [6/20]
+  Ready Queue: [P12(11), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T41->52] P12 runs (rem=0)
+[DONE] P12 (TAT=51, WT=39) [7/20]
+  Ready Queue: [P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T52] P18 FIRST RUN (RT=24)
+[T52->65] P18 runs (rem=0)
+[DONE] P18 (TAT=37, WT=24) [8/20]
+  Ready Queue: [P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T65] P20 FIRST RUN (RT=54)
+[T65->79] P20 runs (rem=0)
+[DONE] P20 (TAT=68, WT=54) [9/20]
+  Ready Queue: [P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T79] P13 FIRST RUN (RT=57)
+[T79->94] P13 runs (rem=0)
+[DONE] P13 (TAT=72, WT=57) [10/20]
+  Ready Queue: [P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T94] P8 FIRST RUN (RT=85)
+[T94->117] P8 runs (rem=0)
+[DONE] P8 (TAT=108, WT=85) [11/20]
+  Ready Queue: [P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T117] P3 FIRST RUN (RT=105)
+[T117->143] P3 runs (rem=0)
+[DONE] P3 (TAT=131, WT=105) [12/20]
+  Ready Queue: [P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T143] P14 FIRST RUN (RT=125)
+[T143->170] P14 runs (rem=0)
+[DONE] P14 (TAT=152, WT=125) [13/20]
+  Ready Queue: [P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T170] P10 FIRST RUN (RT=170)
+[T170->203] P10 runs (rem=0)
+[DONE] P10 (TAT=203, WT=170) [14/20]
+  Ready Queue: [P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T203] P6 FIRST RUN (RT=195)
+[T203->240] P6 runs (rem=0)
+[DONE] P6 (TAT=232, WT=195) [15/20]
+  Ready Queue: [P11(37), P7(37), P19(39), P4(41), P15(47)]
+[T240] P11 FIRST RUN (RT=232)
+[T240->277] P11 runs (rem=0)
+[DONE] P11 (TAT=269, WT=232) [16/20]
+  Ready Queue: [P7(37), P19(39), P4(41), P15(47)]
+[T277] P7 FIRST RUN (RT=268)
+[T277->314] P7 runs (rem=0)
+[DONE] P7 (TAT=305, WT=268) [17/20]
+  Ready Queue: [P19(39), P4(41), P15(47)]
+[T314] P19 FIRST RUN (RT=301)
+[T314->353] P19 runs (rem=0)
+[DONE] P19 (TAT=340, WT=301) [18/20]
+  Ready Queue: [P4(41), P15(47)]
+[T353] P4 FIRST RUN (RT=330)
+[T353->394] P4 runs (rem=0)
+[DONE] P4 (TAT=371, WT=330) [19/20]
+  Ready Queue: [P15(47)]
+[T394] P15 FIRST RUN (RT=370)
+[T394->441] P15 runs (rem=0)
+[DONE] P15 (TAT=417, WT=370) [20/20]
+============================================================
+SRTF SIMULATION COMPLETED
+============================================================
 
-ATT: 260.80
-AWT: 238.00
-ART: 234.53
-Context Switches: 62
+============================================================
+SUMMARY STATISTICS
+============================================================
+ATT: 140.45
+AWT: 118.40
+ART: 116.80
+Context Switches: 31
+Total Time: 441
