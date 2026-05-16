@@ -1,36 +1,53 @@
-import pandas as pd 
+import csv
+import os
 from random import randint
-import numpy as np 
-import os 
-from pathlib import Path
-
-folder = Path("./static")
-
-# Check if it exists and is a directory
-if folder.is_dir():
-    print("The folder exists.")
-else:
-    print("Static folder has been created .")
-    os.mkdir("static")
 
 
-# num_processes = randint(1, 10)
-num_processes = 10
-print(f"Number of processes created : {num_processes}")
-data_list = []
-# Creates a dataframe that contains Burst time, Process id, Arrival time . There should be a minimum of 30 processes 
-for process in range(0, num_processes ):
-    arrival_time = randint(0, 50)
-    burst_time = randint(0, 50)
-    # print(f"Process {process}: arrival time: {arrival_time},Burst time: {burst_time} ")
-    data_list.append([arrival_time, burst_time])
-
-data = pd.DataFrame(np.array(data_list), columns=["arrival_time", "burst_time"])
+STATIC_FOLDER = "./static"
+CSV_FILENAME = "./static/data.csv"
+NUMBER_OF_PROCESSES = 20
+ARRIVAL_TIME_MIN = 0
+ARRIVAL_TIME_MAX = 30
+BURST_TIME_MIN = 1
+BURST_TIME_MAX = 50
 
 
+def generate_process_data(number_of_processes=NUMBER_OF_PROCESSES):
+    """Generate random process data for the scheduler simulations."""
+    processes = []
 
-# Saves the dataframe in a csv format in the directory 
+    for process_id in range(1, number_of_processes + 1):
+        processes.append(
+            {
+                "process_id": process_id,
+                "arrival_time": randint(ARRIVAL_TIME_MIN, ARRIVAL_TIME_MAX),
+                "burst_time": randint(BURST_TIME_MIN, BURST_TIME_MAX),
+            }
+        )
 
-data = data.rename_axis("process_id")
+    return processes
 
-data.to_csv("./static/data.csv")
+
+def save_process_data(processes, filename=CSV_FILENAME):
+    """Save generated process data to a CSV file."""
+    os.makedirs(STATIC_FOLDER, exist_ok=True)
+
+    with open(filename, "w", newline="", encoding="utf-8") as file:
+        writer = csv.DictWriter(
+            file,
+            fieldnames=["process_id", "arrival_time", "burst_time"],
+        )
+        writer.writeheader()
+        writer.writerows(processes)
+
+
+def main():
+    processes = generate_process_data()
+    save_process_data(processes)
+
+    print(f"Generated {len(processes)} processes.")
+    print(f"Data saved to {CSV_FILENAME}")
+
+
+if __name__ == "__main__":
+    main()
