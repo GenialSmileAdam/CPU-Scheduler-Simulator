@@ -15,7 +15,7 @@ else:
 
 
 # num_processes = randint(1, 10)
-num_processes = 30
+num_processes = 10
 print(f"Number of processes created : {num_processes}")
 data_list = []
 # Creates a dataframe that contains Burst time, Process id, Arrival time . There should be a minimum of 30 processes 
