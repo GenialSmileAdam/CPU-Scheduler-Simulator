@@ -1,7 +1,5 @@
-# srtf_scheduler.py
 import pandas as pd
 import matplotlib.pyplot as plt
-from datetime import datetime
 
 class SRTFScheduler:
     def __init__(self, processes):
