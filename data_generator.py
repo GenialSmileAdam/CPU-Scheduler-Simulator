@@ -15,12 +15,12 @@ else:
 
 
 # num_processes = randint(1, 10)
-num_processes = 10
+num_processes = 30
 print(f"Number of processes created : {num_processes}")
 data_list = []
 # Creates a dataframe that contains Burst time, Process id, Arrival time . There should be a minimum of 30 processes 
 for process in range(0, num_processes ):
-    arrival_time = randint(0, 30)
+    arrival_time = randint(0, 50)
     burst_time = randint(0, 50)
     # print(f"Process {process}: arrival time: {arrival_time},Burst time: {burst_time} ")
     data_list.append([arrival_time, burst_time])
@@ -33,4 +33,4 @@ data = pd.DataFrame(np.array(data_list), columns=["arrival_time", "burst_time"])
 
 data = data.rename_axis("process_id")
 
-data.to_csv("./static/data")
+data.to_csv("./static/data.csv")
