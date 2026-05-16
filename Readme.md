@@ -15,7 +15,7 @@ This project generates process data and runs CPU scheduling simulations for an O
 | `process.py` | Defines the shared `Process` class used by the schedulers. |
 | `process_loader.py` | Loads and sorts process data from the CSV file. |
 | `round_robin_algorithm.py` | Runs the Round Robin scheduler. |
-| `scheduler_report.py` | Saves logs, results, Gantt charts, and calculates metrics. |
+| `scheduler_report.py` | Saves Round Robin logs, results, Gantt charts, and metrics. |
 | `srtf_algorithm.py` | Contains the SRTF scheduler implementation. |
 | `main.py` | Runs the SRTF simulation. |
 | `static/` | Stores generated input data. |
@@ -121,7 +121,7 @@ SRTF output files:
 
 - `results/srtf_simulation_log.txt`
 - `results/srtf_simulation_results.csv`
-- `results/srtf_gantt_chart.png`
+- `results/srtf_simulation_gantt.png`
 
 ## Metrics Used
 
