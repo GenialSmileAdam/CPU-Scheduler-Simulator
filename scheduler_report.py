@@ -2,11 +2,16 @@ import csv
 import os
 from datetime import datetime
 
+os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
+
+import matplotlib.pyplot as plt
+
 
 LOG_FILENAME = "./results/round_robin_simulation_log.txt"
 RESULTS_FILENAME = "./results/round_robin_simulation_results.csv"
 GANTT_CHART_FILENAME = "./results/round_robin_gantt_chart.txt"
 GANTT_DATA_FILENAME = "./results/round_robin_gantt_chart.csv"
+GANTT_IMAGE_FILENAME = "./results/round_robin_gantt_chart.png"
 
 
 def log_event(logs, current_time, message):
@@ -87,6 +92,10 @@ def save_gantt_chart(gantt_chart):
     """Save the execution order as a simple Gantt chart."""
     os.makedirs("./results", exist_ok=True)
 
+    if not gantt_chart:
+        print("No Gantt chart data to save")
+        return
+
     with open(GANTT_CHART_FILENAME, "w", encoding="utf-8") as file:
         file.write("ROUND ROBIN GANTT CHART\n")
         file.write("=" * 60 + "\n\n")
@@ -106,8 +115,68 @@ def save_gantt_chart(gantt_chart):
         for process_id, start_time, end_time in gantt_chart:
             writer.writerow([process_id, start_time, end_time, end_time - start_time])
 
+    save_gantt_chart_image(gantt_chart)
+
     print(f"Gantt chart saved to {GANTT_CHART_FILENAME}")
     print(f"Gantt chart data saved to {GANTT_DATA_FILENAME}")
+    print(f"Gantt chart image saved to {GANTT_IMAGE_FILENAME}")
+
+
+def save_gantt_chart_image(gantt_chart):
+    """Save the Gantt chart as a PNG image."""
+    segments_per_row = 40
+    rows = split_gantt_chart(gantt_chart, segments_per_row)
+    figure_height = max(3, 2.2 * len(rows))
+    fig, axes = plt.subplots(len(rows), 1, figsize=(16, figure_height), squeeze=False)
+
+    process_ids = sorted({process_id for process_id, _, _ in gantt_chart})
+    colormap = plt.get_cmap("tab20")
+    colors = {
+        process_id: colormap(index % colormap.N)
+        for index, process_id in enumerate(process_ids)
+    }
+
+    for row_index, row in enumerate(rows):
+        ax = axes[row_index][0]
+        row_start_time = row[0][1]
+
+        for process_id, start_time, end_time in row:
+            duration = end_time - start_time
+            left = start_time - row_start_time
+
+            ax.barh(
+                y=0,
+                width=duration,
+                left=left,
+                color=colors[process_id],
+                edgecolor="black",
+                linewidth=1,
+            )
+
+            if duration > 0:
+                ax.text(
+                    left + duration / 2,
+                    0,
+                    f"P{process_id}",
+                    ha="center",
+                    va="center",
+                    fontsize=8,
+                    fontweight="bold",
+                )
+
+        row_end_time = row[-1][2]
+        ax.set_xlim(-0.5, row_end_time - row_start_time + 0.5)
+        ax.set_ylim(-0.5, 0.5)
+        ax.set_yticks([])
+        ax.set_xlabel(f"Time from {row_start_time}", fontsize=10)
+        ax.grid(axis="x", alpha=0.3, linestyle=":", linewidth=0.5)
+
+        if row_index == 0:
+            ax.set_title("Round Robin Scheduling - Gantt Chart", fontweight="bold")
+
+    plt.tight_layout()
+    plt.savefig(GANTT_IMAGE_FILENAME, dpi=300, bbox_inches="tight")
+    plt.close(fig)
 
 
 def split_gantt_chart(gantt_chart, row_size=12):
