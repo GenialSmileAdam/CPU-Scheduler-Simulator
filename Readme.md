@@ -23,9 +23,9 @@ This project generates process data and runs CPU scheduling simulations for an O
 
 ## Setup
 
-Round Robin and the data generator use only Python's standard library.
+The data generator uses only Python's standard library.
 
-SRTF uses extra packages:
+The schedulers that generate PNG Gantt charts use extra packages:
 
 ```bash
 pip install pandas matplotlib
@@ -83,6 +83,7 @@ Round Robin output files:
 - `results/round_robin_simulation_results.csv`
 - `results/round_robin_gantt_chart.txt`
 - `results/round_robin_gantt_chart.csv`
+- `results/round_robin_gantt_chart.png`
 
 The results CSV contains:
 
