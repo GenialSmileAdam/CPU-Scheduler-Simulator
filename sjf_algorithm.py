@@ -56,7 +56,7 @@ class SJFScheduler:
             self.log_event(f"Ready Queue: [{', '.join(ready_list)}]")
 
             # Select process with shortest burst time (Non-Preemptive)
-            current_process = min(arrived, key=lambda p: p.burst_time)
+            current_process = min(arrived, key=lambda p: (p.burst_time, p.arrival_time, self.processes.index(p)))
 
             # Record response time (first time on CPU)
             if current_process.response_time == -1:
