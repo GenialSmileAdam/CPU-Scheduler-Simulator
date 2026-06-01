@@ -168,7 +168,12 @@ def save_gantt_chart_image(gantt_chart):
         ax.set_xlim(-0.5, row_end_time - row_start_time + 0.5)
         ax.set_ylim(-0.5, 0.5)
         ax.set_yticks([])
-        ax.set_xlabel(f"Time from {row_start_time}", fontsize=10)
+        ax.set_ylabel("CPU", fontsize=10)
+        ax.set_xlabel("Time", fontsize=10)
+
+        xticks = range(0, int(row_end_time - row_start_time) + 1, max(1, int((row_end_time - row_start_time) / 10)))
+        ax.set_xticks(xticks)
+        ax.set_xticklabels([str(int(row_start_time + tick)) for tick in xticks])
         ax.grid(axis="x", alpha=0.3, linestyle=":", linewidth=0.5)
 
         if row_index == 0:

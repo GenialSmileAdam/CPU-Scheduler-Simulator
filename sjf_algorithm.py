@@ -127,16 +127,16 @@ class SJFScheduler:
             print("No Gantt chart data available")
             return
 
-        segments_per_row = 40
+        segments_per_row = 20
         total_segments = len(self.gantt_chart)
         num_rows = (total_segments + segments_per_row - 1) // segments_per_row
 
         if num_rows > 1:
-            fig, axes = plt.subplots(num_rows, 1, figsize=(16, 3 * num_rows))
+            fig, axes = plt.subplots(num_rows, 1, figsize=(40, 3 * num_rows))
             if num_rows == 1:
                 axes = [axes]
         else:
-            fig, axes = plt.subplots(1, 1, figsize=(16, 6))
+            fig, axes = plt.subplots(1, 1, figsize=(40, 6))
             axes = [axes]
 
         unique_processes = list(set([pid for pid, _, _ in self.gantt_chart]))
@@ -158,7 +158,8 @@ class SJFScheduler:
             if not row_segments:
                 continue
 
-            time_offset = row_segments[0][1] if start_idx > 0 else 0
+            row_start_time = row_segments[0][1]
+            time_offset = row_start_time
 
             for pid, start, end in row_segments:
                 adjusted_start = start - time_offset
@@ -173,18 +174,22 @@ class SJFScheduler:
                     ax.text(mid_x, 0, f"P{pid}", ha='center', va='center',
                             fontsize=8, fontweight='bold')
 
-            ax.set_xlabel('Time (relative to row start)', fontsize=10, fontweight='bold')
-            ax.set_ylabel(f'Row {row_idx + 1}', fontsize=10, fontweight='bold')
+            ax.set_xlabel('Time', fontsize=10, fontweight='bold')
+            ax.set_ylabel('CPU', fontsize=10, fontweight='bold')
             ax.set_ylim(-0.5, 0.5)
             ax.set_yticks([])
             ax.grid(axis='x', alpha=0.3, linestyle=':', linewidth=0.5)
 
+            max_time_in_row = max([end - time_offset for _, _, end in row_segments])
+            ax.set_xlim(-0.5, max_time_in_row + 1)
+
+            xticks = range(0, int(max_time_in_row) + 1, max(1, int(max_time_in_row / 10)))
+            ax.set_xticks(xticks)
+            ax.set_xticklabels([str(int(row_start_time + tick)) for tick in xticks])
+
             if row_idx == 0:
                 ax.set_title('SJF Non-Preemptive Scheduling - Gantt Chart',
                              fontsize=12, fontweight='bold')
-
-            max_time_in_row = max([end - time_offset for _, _, end in row_segments])
-            ax.set_xlim(-0.5, max_time_in_row + 1)
 
         plt.tight_layout()
         plt.savefig('./results/sjf_gantt_chart.png', dpi=300, bbox_inches='tight')
