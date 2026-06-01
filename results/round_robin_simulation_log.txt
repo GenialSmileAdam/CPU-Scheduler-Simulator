@@ -1,459 +1,469 @@
 ROUND ROBIN SIMULATION LOG
-Generated: 2026-06-01 15:42:37
+Generated: 2026-06-01 18:10:54
 Time Quantum: 5
 ============================================================
 
 [Time 0     ] Round Robin simulation started
 [Time 0     ] Time quantum = 5
 [Time 1     ] CPU was idle until the next process arrived
-[Time 1     ] P1 arrived and entered the ready queue
-[Time 1     ] P2 arrived and entered the ready queue
-[Time 6     ] P1 ran from 1 to 6 (remaining time: 9)
-[Time 6     ] P26 arrived and entered the ready queue
-[Time 6     ] P10 arrived and entered the ready queue
-[Time 6     ] P1 returned to the ready queue
-[Time 11    ] P2 ran from 6 to 11 (remaining time: 7)
-[Time 11    ] P12 arrived and entered the ready queue
+[Time 1     ] P7 arrived and entered the ready queue
+[Time 1     ] P31 arrived and entered the ready queue
+[Time 1     ] P38 arrived and entered the ready queue
+[Time 6     ] P7 ran from 1 to 6 (remaining time: 29)
+[Time 6     ] P12 arrived and entered the ready queue
+[Time 6     ] P23 arrived and entered the ready queue
+[Time 6     ] P34 arrived and entered the ready queue
+[Time 6     ] P21 arrived and entered the ready queue
+[Time 6     ] P29 arrived and entered the ready queue
+[Time 6     ] P7 returned to the ready queue
+[Time 11    ] P31 ran from 6 to 11 (remaining time: 26)
 [Time 11    ] P16 arrived and entered the ready queue
-[Time 11    ] P32 arrived and entered the ready queue
-[Time 11    ] P24 arrived and entered the ready queue
-[Time 11    ] P5 arrived and entered the ready queue
-[Time 11    ] P20 arrived and entered the ready queue
-[Time 11    ] P23 arrived and entered the ready queue
-[Time 11    ] P2 returned to the ready queue
-[Time 16    ] P26 ran from 11 to 16 (remaining time: 27)
-[Time 16    ] P34 arrived and entered the ready queue
-[Time 16    ] P11 arrived and entered the ready queue
-[Time 16    ] P26 returned to the ready queue
-[Time 21    ] P10 ran from 16 to 21 (remaining time: 7)
-[Time 21    ] P6 arrived and entered the ready queue
-[Time 21    ] P7 arrived and entered the ready queue
-[Time 21    ] P10 returned to the ready queue
-[Time 26    ] P1 ran from 21 to 26 (remaining time: 4)
-[Time 26    ] P4 arrived and entered the ready queue
-[Time 26    ] P25 arrived and entered the ready queue
-[Time 26    ] P38 arrived and entered the ready queue
-[Time 26    ] P1 returned to the ready queue
-[Time 31    ] P12 ran from 26 to 31 (remaining time: 36)
-[Time 31    ] P22 arrived and entered the ready queue
-[Time 31    ] P15 arrived and entered the ready queue
-[Time 31    ] P28 arrived and entered the ready queue
-[Time 31    ] P39 arrived and entered the ready queue
-[Time 31    ] P33 arrived and entered the ready queue
-[Time 31    ] P35 arrived and entered the ready queue
-[Time 31    ] P3 arrived and entered the ready queue
-[Time 31    ] P30 arrived and entered the ready queue
-[Time 31    ] P31 arrived and entered the ready queue
-[Time 31    ] P12 returned to the ready queue
-[Time 36    ] P16 ran from 31 to 36 (remaining time: 23)
-[Time 36    ] P8 arrived and entered the ready queue
-[Time 36    ] P13 arrived and entered the ready queue
-[Time 36    ] P9 arrived and entered the ready queue
-[Time 36    ] P19 arrived and entered the ready queue
-[Time 36    ] P21 arrived and entered the ready queue
-[Time 36    ] P36 arrived and entered the ready queue
-[Time 36    ] P17 arrived and entered the ready queue
-[Time 36    ] P16 returned to the ready queue
-[Time 41    ] P32 ran from 36 to 41 (remaining time: 17)
-[Time 41    ] P37 arrived and entered the ready queue
-[Time 41    ] P27 arrived and entered the ready queue
-[Time 41    ] P32 returned to the ready queue
-[Time 46    ] P24 ran from 41 to 46 (remaining time: 45)
-[Time 46    ] P18 arrived and entered the ready queue
-[Time 46    ] P40 arrived and entered the ready queue
-[Time 46    ] P24 returned to the ready queue
-[Time 51    ] P5 ran from 46 to 51 (remaining time: 27)
-[Time 51    ] P14 arrived and entered the ready queue
-[Time 51    ] P29 arrived and entered the ready queue
-[Time 51    ] P5 returned to the ready queue
-[Time 56    ] P20 ran from 51 to 56 (remaining time: 17)
-[Time 56    ] P20 returned to the ready queue
-[Time 61    ] P23 ran from 56 to 61 (remaining time: 26)
-[Time 61    ] P23 returned to the ready queue
-[Time 66    ] P2 ran from 61 to 66 (remaining time: 2)
-[Time 66    ] P2 returned to the ready queue
-[Time 71    ] P34 ran from 66 to 71 (remaining time: 4)
-[Time 71    ] P34 returned to the ready queue
-[Time 76    ] P11 ran from 71 to 76 (remaining time: 6)
-[Time 76    ] P11 returned to the ready queue
-[Time 81    ] P26 ran from 76 to 81 (remaining time: 22)
-[Time 81    ] P26 returned to the ready queue
-[Time 86    ] P6 ran from 81 to 86 (remaining time: 42)
-[Time 86    ] P6 returned to the ready queue
-[Time 91    ] P7 ran from 86 to 91 (remaining time: 6)
-[Time 91    ] P7 returned to the ready queue
-[Time 96    ] P10 ran from 91 to 96 (remaining time: 2)
-[Time 96    ] P10 returned to the ready queue
-[Time 101   ] P4 ran from 96 to 101 (remaining time: 29)
-[Time 101   ] P4 returned to the ready queue
-[Time 106   ] P25 ran from 101 to 106 (remaining time: 8)
-[Time 106   ] P25 returned to the ready queue
-[Time 111   ] P38 ran from 106 to 111 (remaining time: 14)
-[Time 111   ] P38 returned to the ready queue
-[Time 115   ] P1 ran from 111 to 115 (remaining time: 0)
-[Time 115   ] P1 completed
-[Time 120   ] P22 ran from 115 to 120 (remaining time: 19)
-[Time 120   ] P22 returned to the ready queue
-[Time 125   ] P15 ran from 120 to 125 (remaining time: 12)
-[Time 125   ] P15 returned to the ready queue
-[Time 130   ] P28 ran from 125 to 130 (remaining time: 1)
-[Time 130   ] P28 returned to the ready queue
-[Time 135   ] P39 ran from 130 to 135 (remaining time: 12)
-[Time 135   ] P39 returned to the ready queue
-[Time 140   ] P33 ran from 135 to 140 (remaining time: 11)
-[Time 140   ] P33 returned to the ready queue
-[Time 145   ] P35 ran from 140 to 145 (remaining time: 38)
-[Time 145   ] P35 returned to the ready queue
-[Time 150   ] P3 ran from 145 to 150 (remaining time: 4)
-[Time 150   ] P3 returned to the ready queue
-[Time 155   ] P30 ran from 150 to 155 (remaining time: 43)
-[Time 155   ] P30 returned to the ready queue
-[Time 160   ] P31 ran from 155 to 160 (remaining time: 14)
-[Time 160   ] P31 returned to the ready queue
-[Time 165   ] P12 ran from 160 to 165 (remaining time: 31)
-[Time 165   ] P12 returned to the ready queue
-[Time 170   ] P8 ran from 165 to 170 (remaining time: 30)
-[Time 170   ] P8 returned to the ready queue
-[Time 175   ] P13 ran from 170 to 175 (remaining time: 3)
-[Time 175   ] P13 returned to the ready queue
-[Time 180   ] P9 ran from 175 to 180 (remaining time: 5)
-[Time 180   ] P9 returned to the ready queue
-[Time 185   ] P19 ran from 180 to 185 (remaining time: 21)
-[Time 185   ] P19 returned to the ready queue
-[Time 190   ] P21 ran from 185 to 190 (remaining time: 5)
-[Time 190   ] P21 returned to the ready queue
-[Time 195   ] P36 ran from 190 to 195 (remaining time: 37)
-[Time 195   ] P36 returned to the ready queue
-[Time 200   ] P17 ran from 195 to 200 (remaining time: 10)
-[Time 200   ] P17 returned to the ready queue
-[Time 205   ] P16 ran from 200 to 205 (remaining time: 18)
-[Time 205   ] P16 returned to the ready queue
-[Time 210   ] P37 ran from 205 to 210 (remaining time: 3)
-[Time 210   ] P37 returned to the ready queue
-[Time 215   ] P27 ran from 210 to 215 (remaining time: 30)
-[Time 215   ] P27 returned to the ready queue
-[Time 220   ] P32 ran from 215 to 220 (remaining time: 12)
-[Time 220   ] P32 returned to the ready queue
-[Time 225   ] P18 ran from 220 to 225 (remaining time: 21)
-[Time 225   ] P18 returned to the ready queue
-[Time 230   ] P40 ran from 225 to 230 (remaining time: 25)
-[Time 230   ] P40 returned to the ready queue
-[Time 235   ] P24 ran from 230 to 235 (remaining time: 40)
-[Time 235   ] P24 returned to the ready queue
-[Time 240   ] P14 ran from 235 to 240 (remaining time: 5)
-[Time 240   ] P14 returned to the ready queue
-[Time 245   ] P29 ran from 240 to 245 (remaining time: 20)
-[Time 245   ] P29 returned to the ready queue
-[Time 250   ] P5 ran from 245 to 250 (remaining time: 22)
-[Time 250   ] P5 returned to the ready queue
-[Time 255   ] P20 ran from 250 to 255 (remaining time: 12)
-[Time 255   ] P20 returned to the ready queue
-[Time 260   ] P23 ran from 255 to 260 (remaining time: 21)
-[Time 260   ] P23 returned to the ready queue
-[Time 262   ] P2 ran from 260 to 262 (remaining time: 0)
-[Time 262   ] P2 completed
-[Time 266   ] P34 ran from 262 to 266 (remaining time: 0)
-[Time 266   ] P34 completed
-[Time 271   ] P11 ran from 266 to 271 (remaining time: 1)
-[Time 271   ] P11 returned to the ready queue
-[Time 276   ] P26 ran from 271 to 276 (remaining time: 17)
-[Time 276   ] P26 returned to the ready queue
-[Time 281   ] P6 ran from 276 to 281 (remaining time: 37)
-[Time 281   ] P6 returned to the ready queue
-[Time 286   ] P7 ran from 281 to 286 (remaining time: 1)
-[Time 286   ] P7 returned to the ready queue
-[Time 288   ] P10 ran from 286 to 288 (remaining time: 0)
-[Time 288   ] P10 completed
-[Time 293   ] P4 ran from 288 to 293 (remaining time: 24)
-[Time 293   ] P4 returned to the ready queue
-[Time 298   ] P25 ran from 293 to 298 (remaining time: 3)
-[Time 298   ] P25 returned to the ready queue
-[Time 303   ] P38 ran from 298 to 303 (remaining time: 9)
-[Time 303   ] P38 returned to the ready queue
-[Time 308   ] P22 ran from 303 to 308 (remaining time: 14)
-[Time 308   ] P22 returned to the ready queue
-[Time 313   ] P15 ran from 308 to 313 (remaining time: 7)
-[Time 313   ] P15 returned to the ready queue
-[Time 314   ] P28 ran from 313 to 314 (remaining time: 0)
-[Time 314   ] P28 completed
-[Time 319   ] P39 ran from 314 to 319 (remaining time: 7)
-[Time 319   ] P39 returned to the ready queue
-[Time 324   ] P33 ran from 319 to 324 (remaining time: 6)
-[Time 324   ] P33 returned to the ready queue
-[Time 329   ] P35 ran from 324 to 329 (remaining time: 33)
-[Time 329   ] P35 returned to the ready queue
-[Time 333   ] P3 ran from 329 to 333 (remaining time: 0)
-[Time 333   ] P3 completed
-[Time 338   ] P30 ran from 333 to 338 (remaining time: 38)
-[Time 338   ] P30 returned to the ready queue
-[Time 343   ] P31 ran from 338 to 343 (remaining time: 9)
-[Time 343   ] P31 returned to the ready queue
-[Time 348   ] P12 ran from 343 to 348 (remaining time: 26)
-[Time 348   ] P12 returned to the ready queue
-[Time 353   ] P8 ran from 348 to 353 (remaining time: 25)
-[Time 353   ] P8 returned to the ready queue
-[Time 356   ] P13 ran from 353 to 356 (remaining time: 0)
-[Time 356   ] P13 completed
-[Time 361   ] P9 ran from 356 to 361 (remaining time: 0)
-[Time 361   ] P9 completed
-[Time 366   ] P19 ran from 361 to 366 (remaining time: 16)
-[Time 366   ] P19 returned to the ready queue
-[Time 371   ] P21 ran from 366 to 371 (remaining time: 0)
-[Time 371   ] P21 completed
-[Time 376   ] P36 ran from 371 to 376 (remaining time: 32)
-[Time 376   ] P36 returned to the ready queue
-[Time 381   ] P17 ran from 376 to 381 (remaining time: 5)
-[Time 381   ] P17 returned to the ready queue
-[Time 386   ] P16 ran from 381 to 386 (remaining time: 13)
-[Time 386   ] P16 returned to the ready queue
-[Time 389   ] P37 ran from 386 to 389 (remaining time: 0)
-[Time 389   ] P37 completed
-[Time 394   ] P27 ran from 389 to 394 (remaining time: 25)
-[Time 394   ] P27 returned to the ready queue
-[Time 399   ] P32 ran from 394 to 399 (remaining time: 7)
-[Time 399   ] P32 returned to the ready queue
-[Time 404   ] P18 ran from 399 to 404 (remaining time: 16)
-[Time 404   ] P18 returned to the ready queue
-[Time 409   ] P40 ran from 404 to 409 (remaining time: 20)
-[Time 409   ] P40 returned to the ready queue
-[Time 414   ] P24 ran from 409 to 414 (remaining time: 35)
-[Time 414   ] P24 returned to the ready queue
-[Time 419   ] P14 ran from 414 to 419 (remaining time: 0)
-[Time 419   ] P14 completed
-[Time 424   ] P29 ran from 419 to 424 (remaining time: 15)
-[Time 424   ] P29 returned to the ready queue
-[Time 429   ] P5 ran from 424 to 429 (remaining time: 17)
-[Time 429   ] P5 returned to the ready queue
-[Time 434   ] P20 ran from 429 to 434 (remaining time: 7)
-[Time 434   ] P20 returned to the ready queue
-[Time 439   ] P23 ran from 434 to 439 (remaining time: 16)
-[Time 439   ] P23 returned to the ready queue
-[Time 440   ] P11 ran from 439 to 440 (remaining time: 0)
-[Time 440   ] P11 completed
-[Time 445   ] P26 ran from 440 to 445 (remaining time: 12)
-[Time 445   ] P26 returned to the ready queue
-[Time 450   ] P6 ran from 445 to 450 (remaining time: 32)
-[Time 450   ] P6 returned to the ready queue
-[Time 451   ] P7 ran from 450 to 451 (remaining time: 0)
-[Time 451   ] P7 completed
-[Time 456   ] P4 ran from 451 to 456 (remaining time: 19)
-[Time 456   ] P4 returned to the ready queue
-[Time 459   ] P25 ran from 456 to 459 (remaining time: 0)
-[Time 459   ] P25 completed
-[Time 464   ] P38 ran from 459 to 464 (remaining time: 4)
-[Time 464   ] P38 returned to the ready queue
-[Time 469   ] P22 ran from 464 to 469 (remaining time: 9)
-[Time 469   ] P22 returned to the ready queue
-[Time 474   ] P15 ran from 469 to 474 (remaining time: 2)
-[Time 474   ] P15 returned to the ready queue
-[Time 479   ] P39 ran from 474 to 479 (remaining time: 2)
-[Time 479   ] P39 returned to the ready queue
-[Time 484   ] P33 ran from 479 to 484 (remaining time: 1)
-[Time 484   ] P33 returned to the ready queue
-[Time 489   ] P35 ran from 484 to 489 (remaining time: 28)
-[Time 489   ] P35 returned to the ready queue
-[Time 494   ] P30 ran from 489 to 494 (remaining time: 33)
-[Time 494   ] P30 returned to the ready queue
-[Time 499   ] P31 ran from 494 to 499 (remaining time: 4)
-[Time 499   ] P31 returned to the ready queue
-[Time 504   ] P12 ran from 499 to 504 (remaining time: 21)
-[Time 504   ] P12 returned to the ready queue
-[Time 509   ] P8 ran from 504 to 509 (remaining time: 20)
-[Time 509   ] P8 returned to the ready queue
-[Time 514   ] P19 ran from 509 to 514 (remaining time: 11)
-[Time 514   ] P19 returned to the ready queue
-[Time 519   ] P36 ran from 514 to 519 (remaining time: 27)
-[Time 519   ] P36 returned to the ready queue
-[Time 524   ] P17 ran from 519 to 524 (remaining time: 0)
-[Time 524   ] P17 completed
-[Time 529   ] P16 ran from 524 to 529 (remaining time: 8)
-[Time 529   ] P16 returned to the ready queue
-[Time 534   ] P27 ran from 529 to 534 (remaining time: 20)
-[Time 534   ] P27 returned to the ready queue
-[Time 539   ] P32 ran from 534 to 539 (remaining time: 2)
-[Time 539   ] P32 returned to the ready queue
-[Time 544   ] P18 ran from 539 to 544 (remaining time: 11)
-[Time 544   ] P18 returned to the ready queue
-[Time 549   ] P40 ran from 544 to 549 (remaining time: 15)
-[Time 549   ] P40 returned to the ready queue
-[Time 554   ] P24 ran from 549 to 554 (remaining time: 30)
-[Time 554   ] P24 returned to the ready queue
-[Time 559   ] P29 ran from 554 to 559 (remaining time: 10)
-[Time 559   ] P29 returned to the ready queue
-[Time 564   ] P5 ran from 559 to 564 (remaining time: 12)
-[Time 564   ] P5 returned to the ready queue
-[Time 569   ] P20 ran from 564 to 569 (remaining time: 2)
-[Time 569   ] P20 returned to the ready queue
-[Time 574   ] P23 ran from 569 to 574 (remaining time: 11)
-[Time 574   ] P23 returned to the ready queue
-[Time 579   ] P26 ran from 574 to 579 (remaining time: 7)
-[Time 579   ] P26 returned to the ready queue
-[Time 584   ] P6 ran from 579 to 584 (remaining time: 27)
-[Time 584   ] P6 returned to the ready queue
-[Time 589   ] P4 ran from 584 to 589 (remaining time: 14)
-[Time 589   ] P4 returned to the ready queue
-[Time 593   ] P38 ran from 589 to 593 (remaining time: 0)
-[Time 593   ] P38 completed
-[Time 598   ] P22 ran from 593 to 598 (remaining time: 4)
-[Time 598   ] P22 returned to the ready queue
-[Time 600   ] P15 ran from 598 to 600 (remaining time: 0)
-[Time 600   ] P15 completed
-[Time 602   ] P39 ran from 600 to 602 (remaining time: 0)
-[Time 602   ] P39 completed
-[Time 603   ] P33 ran from 602 to 603 (remaining time: 0)
-[Time 603   ] P33 completed
-[Time 608   ] P35 ran from 603 to 608 (remaining time: 23)
-[Time 608   ] P35 returned to the ready queue
-[Time 613   ] P30 ran from 608 to 613 (remaining time: 28)
-[Time 613   ] P30 returned to the ready queue
-[Time 617   ] P31 ran from 613 to 617 (remaining time: 0)
-[Time 617   ] P31 completed
-[Time 622   ] P12 ran from 617 to 622 (remaining time: 16)
-[Time 622   ] P12 returned to the ready queue
-[Time 627   ] P8 ran from 622 to 627 (remaining time: 15)
-[Time 627   ] P8 returned to the ready queue
-[Time 632   ] P19 ran from 627 to 632 (remaining time: 6)
-[Time 632   ] P19 returned to the ready queue
-[Time 637   ] P36 ran from 632 to 637 (remaining time: 22)
-[Time 637   ] P36 returned to the ready queue
-[Time 642   ] P16 ran from 637 to 642 (remaining time: 3)
-[Time 642   ] P16 returned to the ready queue
-[Time 647   ] P27 ran from 642 to 647 (remaining time: 15)
-[Time 647   ] P27 returned to the ready queue
-[Time 649   ] P32 ran from 647 to 649 (remaining time: 0)
-[Time 649   ] P32 completed
-[Time 654   ] P18 ran from 649 to 654 (remaining time: 6)
-[Time 654   ] P18 returned to the ready queue
-[Time 659   ] P40 ran from 654 to 659 (remaining time: 10)
-[Time 659   ] P40 returned to the ready queue
-[Time 664   ] P24 ran from 659 to 664 (remaining time: 25)
-[Time 664   ] P24 returned to the ready queue
-[Time 669   ] P29 ran from 664 to 669 (remaining time: 5)
-[Time 669   ] P29 returned to the ready queue
-[Time 674   ] P5 ran from 669 to 674 (remaining time: 7)
-[Time 674   ] P5 returned to the ready queue
-[Time 676   ] P20 ran from 674 to 676 (remaining time: 0)
-[Time 676   ] P20 completed
-[Time 681   ] P23 ran from 676 to 681 (remaining time: 6)
-[Time 681   ] P23 returned to the ready queue
-[Time 686   ] P26 ran from 681 to 686 (remaining time: 2)
-[Time 686   ] P26 returned to the ready queue
-[Time 691   ] P6 ran from 686 to 691 (remaining time: 22)
-[Time 691   ] P6 returned to the ready queue
-[Time 696   ] P4 ran from 691 to 696 (remaining time: 9)
-[Time 696   ] P4 returned to the ready queue
-[Time 700   ] P22 ran from 696 to 700 (remaining time: 0)
-[Time 700   ] P22 completed
-[Time 705   ] P35 ran from 700 to 705 (remaining time: 18)
-[Time 705   ] P35 returned to the ready queue
-[Time 710   ] P30 ran from 705 to 710 (remaining time: 23)
-[Time 710   ] P30 returned to the ready queue
-[Time 715   ] P12 ran from 710 to 715 (remaining time: 11)
-[Time 715   ] P12 returned to the ready queue
-[Time 720   ] P8 ran from 715 to 720 (remaining time: 10)
-[Time 720   ] P8 returned to the ready queue
-[Time 725   ] P19 ran from 720 to 725 (remaining time: 1)
-[Time 725   ] P19 returned to the ready queue
-[Time 730   ] P36 ran from 725 to 730 (remaining time: 17)
-[Time 730   ] P36 returned to the ready queue
-[Time 733   ] P16 ran from 730 to 733 (remaining time: 0)
-[Time 733   ] P16 completed
-[Time 738   ] P27 ran from 733 to 738 (remaining time: 10)
-[Time 738   ] P27 returned to the ready queue
-[Time 743   ] P18 ran from 738 to 743 (remaining time: 1)
-[Time 743   ] P18 returned to the ready queue
-[Time 748   ] P40 ran from 743 to 748 (remaining time: 5)
-[Time 748   ] P40 returned to the ready queue
-[Time 753   ] P24 ran from 748 to 753 (remaining time: 20)
-[Time 753   ] P24 returned to the ready queue
-[Time 758   ] P29 ran from 753 to 758 (remaining time: 0)
-[Time 758   ] P29 completed
-[Time 763   ] P5 ran from 758 to 763 (remaining time: 2)
-[Time 763   ] P5 returned to the ready queue
-[Time 768   ] P23 ran from 763 to 768 (remaining time: 1)
-[Time 768   ] P23 returned to the ready queue
-[Time 770   ] P26 ran from 768 to 770 (remaining time: 0)
-[Time 770   ] P26 completed
-[Time 775   ] P6 ran from 770 to 775 (remaining time: 17)
-[Time 775   ] P6 returned to the ready queue
-[Time 780   ] P4 ran from 775 to 780 (remaining time: 4)
-[Time 780   ] P4 returned to the ready queue
-[Time 785   ] P35 ran from 780 to 785 (remaining time: 13)
-[Time 785   ] P35 returned to the ready queue
-[Time 790   ] P30 ran from 785 to 790 (remaining time: 18)
-[Time 790   ] P30 returned to the ready queue
-[Time 795   ] P12 ran from 790 to 795 (remaining time: 6)
-[Time 795   ] P12 returned to the ready queue
-[Time 800   ] P8 ran from 795 to 800 (remaining time: 5)
-[Time 800   ] P8 returned to the ready queue
-[Time 801   ] P19 ran from 800 to 801 (remaining time: 0)
-[Time 801   ] P19 completed
-[Time 806   ] P36 ran from 801 to 806 (remaining time: 12)
-[Time 806   ] P36 returned to the ready queue
-[Time 811   ] P27 ran from 806 to 811 (remaining time: 5)
-[Time 811   ] P27 returned to the ready queue
-[Time 812   ] P18 ran from 811 to 812 (remaining time: 0)
-[Time 812   ] P18 completed
-[Time 817   ] P40 ran from 812 to 817 (remaining time: 0)
-[Time 817   ] P40 completed
-[Time 822   ] P24 ran from 817 to 822 (remaining time: 15)
-[Time 822   ] P24 returned to the ready queue
-[Time 824   ] P5 ran from 822 to 824 (remaining time: 0)
-[Time 824   ] P5 completed
-[Time 825   ] P23 ran from 824 to 825 (remaining time: 0)
-[Time 825   ] P23 completed
-[Time 830   ] P6 ran from 825 to 830 (remaining time: 12)
-[Time 830   ] P6 returned to the ready queue
-[Time 834   ] P4 ran from 830 to 834 (remaining time: 0)
-[Time 834   ] P4 completed
-[Time 839   ] P35 ran from 834 to 839 (remaining time: 8)
-[Time 839   ] P35 returned to the ready queue
-[Time 844   ] P30 ran from 839 to 844 (remaining time: 13)
-[Time 844   ] P30 returned to the ready queue
-[Time 849   ] P12 ran from 844 to 849 (remaining time: 1)
-[Time 849   ] P12 returned to the ready queue
-[Time 854   ] P8 ran from 849 to 854 (remaining time: 0)
-[Time 854   ] P8 completed
-[Time 859   ] P36 ran from 854 to 859 (remaining time: 7)
-[Time 859   ] P36 returned to the ready queue
-[Time 864   ] P27 ran from 859 to 864 (remaining time: 0)
-[Time 864   ] P27 completed
-[Time 869   ] P24 ran from 864 to 869 (remaining time: 10)
-[Time 869   ] P24 returned to the ready queue
-[Time 874   ] P6 ran from 869 to 874 (remaining time: 7)
-[Time 874   ] P6 returned to the ready queue
-[Time 879   ] P35 ran from 874 to 879 (remaining time: 3)
-[Time 879   ] P35 returned to the ready queue
-[Time 884   ] P30 ran from 879 to 884 (remaining time: 8)
-[Time 884   ] P30 returned to the ready queue
-[Time 885   ] P12 ran from 884 to 885 (remaining time: 0)
-[Time 885   ] P12 completed
-[Time 890   ] P36 ran from 885 to 890 (remaining time: 2)
-[Time 890   ] P36 returned to the ready queue
-[Time 895   ] P24 ran from 890 to 895 (remaining time: 5)
-[Time 895   ] P24 returned to the ready queue
-[Time 900   ] P6 ran from 895 to 900 (remaining time: 2)
-[Time 900   ] P6 returned to the ready queue
-[Time 903   ] P35 ran from 900 to 903 (remaining time: 0)
-[Time 903   ] P35 completed
-[Time 908   ] P30 ran from 903 to 908 (remaining time: 3)
-[Time 908   ] P30 returned to the ready queue
-[Time 910   ] P36 ran from 908 to 910 (remaining time: 0)
-[Time 910   ] P36 completed
-[Time 915   ] P24 ran from 910 to 915 (remaining time: 0)
-[Time 915   ] P24 completed
-[Time 917   ] P6 ran from 915 to 917 (remaining time: 0)
-[Time 917   ] P6 completed
-[Time 920   ] P30 ran from 917 to 920 (remaining time: 0)
-[Time 920   ] P30 completed
-[Time 920   ] Round Robin simulation completed
+[Time 11    ] P17 arrived and entered the ready queue
+[Time 11    ] P39 arrived and entered the ready queue
+[Time 11    ] P31 returned to the ready queue
+[Time 12    ] P38 ran from 11 to 12 (remaining time: 0)
+[Time 12    ] P2 arrived and entered the ready queue
+[Time 12    ] P22 arrived and entered the ready queue
+[Time 12    ] P38 completed
+[Time 17    ] P12 ran from 12 to 17 (remaining time: 24)
+[Time 17    ] P15 arrived and entered the ready queue
+[Time 17    ] P1 arrived and entered the ready queue
+[Time 17    ] P12 returned to the ready queue
+[Time 22    ] P23 ran from 17 to 22 (remaining time: 9)
+[Time 22    ] P19 arrived and entered the ready queue
+[Time 22    ] P23 returned to the ready queue
+[Time 27    ] P34 ran from 22 to 27 (remaining time: 43)
+[Time 27    ] P6 arrived and entered the ready queue
+[Time 27    ] P25 arrived and entered the ready queue
+[Time 27    ] P28 arrived and entered the ready queue
+[Time 27    ] P32 arrived and entered the ready queue
+[Time 27    ] P34 returned to the ready queue
+[Time 32    ] P21 ran from 27 to 32 (remaining time: 10)
+[Time 32    ] P14 arrived and entered the ready queue
+[Time 32    ] P20 arrived and entered the ready queue
+[Time 32    ] P35 arrived and entered the ready queue
+[Time 32    ] P13 arrived and entered the ready queue
+[Time 32    ] P37 arrived and entered the ready queue
+[Time 32    ] P33 arrived and entered the ready queue
+[Time 32    ] P36 arrived and entered the ready queue
+[Time 32    ] P21 returned to the ready queue
+[Time 37    ] P29 ran from 32 to 37 (remaining time: 32)
+[Time 37    ] P4 arrived and entered the ready queue
+[Time 37    ] P8 arrived and entered the ready queue
+[Time 37    ] P11 arrived and entered the ready queue
+[Time 37    ] P29 returned to the ready queue
+[Time 42    ] P7 ran from 37 to 42 (remaining time: 24)
+[Time 42    ] P18 arrived and entered the ready queue
+[Time 42    ] P7 returned to the ready queue
+[Time 47    ] P16 ran from 42 to 47 (remaining time: 27)
+[Time 47    ] P3 arrived and entered the ready queue
+[Time 47    ] P9 arrived and entered the ready queue
+[Time 47    ] P24 arrived and entered the ready queue
+[Time 47    ] P26 arrived and entered the ready queue
+[Time 47    ] P27 arrived and entered the ready queue
+[Time 47    ] P16 returned to the ready queue
+[Time 50    ] P17 ran from 47 to 50 (remaining time: 0)
+[Time 50    ] P30 arrived and entered the ready queue
+[Time 50    ] P40 arrived and entered the ready queue
+[Time 50    ] P5 arrived and entered the ready queue
+[Time 50    ] P10 arrived and entered the ready queue
+[Time 50    ] P17 completed
+[Time 55    ] P39 ran from 50 to 55 (remaining time: 37)
+[Time 55    ] P39 returned to the ready queue
+[Time 60    ] P31 ran from 55 to 60 (remaining time: 21)
+[Time 60    ] P31 returned to the ready queue
+[Time 65    ] P2 ran from 60 to 65 (remaining time: 12)
+[Time 65    ] P2 returned to the ready queue
+[Time 70    ] P22 ran from 65 to 70 (remaining time: 3)
+[Time 70    ] P22 returned to the ready queue
+[Time 75    ] P15 ran from 70 to 75 (remaining time: 25)
+[Time 75    ] P15 returned to the ready queue
+[Time 80    ] P1 ran from 75 to 80 (remaining time: 21)
+[Time 80    ] P1 returned to the ready queue
+[Time 85    ] P12 ran from 80 to 85 (remaining time: 19)
+[Time 85    ] P12 returned to the ready queue
+[Time 90    ] P19 ran from 85 to 90 (remaining time: 3)
+[Time 90    ] P19 returned to the ready queue
+[Time 95    ] P23 ran from 90 to 95 (remaining time: 4)
+[Time 95    ] P23 returned to the ready queue
+[Time 100   ] P6 ran from 95 to 100 (remaining time: 21)
+[Time 100   ] P6 returned to the ready queue
+[Time 103   ] P25 ran from 100 to 103 (remaining time: 0)
+[Time 103   ] P25 completed
+[Time 108   ] P28 ran from 103 to 108 (remaining time: 13)
+[Time 108   ] P28 returned to the ready queue
+[Time 113   ] P32 ran from 108 to 113 (remaining time: 7)
+[Time 113   ] P32 returned to the ready queue
+[Time 118   ] P34 ran from 113 to 118 (remaining time: 38)
+[Time 118   ] P34 returned to the ready queue
+[Time 123   ] P14 ran from 118 to 123 (remaining time: 44)
+[Time 123   ] P14 returned to the ready queue
+[Time 126   ] P20 ran from 123 to 126 (remaining time: 0)
+[Time 126   ] P20 completed
+[Time 131   ] P35 ran from 126 to 131 (remaining time: 3)
+[Time 131   ] P35 returned to the ready queue
+[Time 136   ] P13 ran from 131 to 136 (remaining time: 1)
+[Time 136   ] P13 returned to the ready queue
+[Time 141   ] P37 ran from 136 to 141 (remaining time: 17)
+[Time 141   ] P37 returned to the ready queue
+[Time 146   ] P33 ran from 141 to 146 (remaining time: 26)
+[Time 146   ] P33 returned to the ready queue
+[Time 151   ] P36 ran from 146 to 151 (remaining time: 8)
+[Time 151   ] P36 returned to the ready queue
+[Time 156   ] P21 ran from 151 to 156 (remaining time: 5)
+[Time 156   ] P21 returned to the ready queue
+[Time 158   ] P4 ran from 156 to 158 (remaining time: 0)
+[Time 158   ] P4 completed
+[Time 163   ] P8 ran from 158 to 163 (remaining time: 26)
+[Time 163   ] P8 returned to the ready queue
+[Time 168   ] P11 ran from 163 to 168 (remaining time: 38)
+[Time 168   ] P11 returned to the ready queue
+[Time 173   ] P29 ran from 168 to 173 (remaining time: 27)
+[Time 173   ] P29 returned to the ready queue
+[Time 178   ] P18 ran from 173 to 178 (remaining time: 28)
+[Time 178   ] P18 returned to the ready queue
+[Time 183   ] P7 ran from 178 to 183 (remaining time: 19)
+[Time 183   ] P7 returned to the ready queue
+[Time 185   ] P3 ran from 183 to 185 (remaining time: 0)
+[Time 185   ] P3 completed
+[Time 190   ] P9 ran from 185 to 190 (remaining time: 38)
+[Time 190   ] P9 returned to the ready queue
+[Time 195   ] P24 ran from 190 to 195 (remaining time: 7)
+[Time 195   ] P24 returned to the ready queue
+[Time 200   ] P26 ran from 195 to 200 (remaining time: 23)
+[Time 200   ] P26 returned to the ready queue
+[Time 205   ] P27 ran from 200 to 205 (remaining time: 37)
+[Time 205   ] P27 returned to the ready queue
+[Time 210   ] P16 ran from 205 to 210 (remaining time: 22)
+[Time 210   ] P16 returned to the ready queue
+[Time 215   ] P30 ran from 210 to 215 (remaining time: 1)
+[Time 215   ] P30 returned to the ready queue
+[Time 220   ] P40 ran from 215 to 220 (remaining time: 37)
+[Time 220   ] P40 returned to the ready queue
+[Time 225   ] P5 ran from 220 to 225 (remaining time: 43)
+[Time 225   ] P5 returned to the ready queue
+[Time 230   ] P10 ran from 225 to 230 (remaining time: 23)
+[Time 230   ] P10 returned to the ready queue
+[Time 235   ] P39 ran from 230 to 235 (remaining time: 32)
+[Time 235   ] P39 returned to the ready queue
+[Time 240   ] P31 ran from 235 to 240 (remaining time: 16)
+[Time 240   ] P31 returned to the ready queue
+[Time 245   ] P2 ran from 240 to 245 (remaining time: 7)
+[Time 245   ] P2 returned to the ready queue
+[Time 248   ] P22 ran from 245 to 248 (remaining time: 0)
+[Time 248   ] P22 completed
+[Time 253   ] P15 ran from 248 to 253 (remaining time: 20)
+[Time 253   ] P15 returned to the ready queue
+[Time 258   ] P1 ran from 253 to 258 (remaining time: 16)
+[Time 258   ] P1 returned to the ready queue
+[Time 263   ] P12 ran from 258 to 263 (remaining time: 14)
+[Time 263   ] P12 returned to the ready queue
+[Time 266   ] P19 ran from 263 to 266 (remaining time: 0)
+[Time 266   ] P19 completed
+[Time 270   ] P23 ran from 266 to 270 (remaining time: 0)
+[Time 270   ] P23 completed
+[Time 275   ] P6 ran from 270 to 275 (remaining time: 16)
+[Time 275   ] P6 returned to the ready queue
+[Time 280   ] P28 ran from 275 to 280 (remaining time: 8)
+[Time 280   ] P28 returned to the ready queue
+[Time 285   ] P32 ran from 280 to 285 (remaining time: 2)
+[Time 285   ] P32 returned to the ready queue
+[Time 290   ] P34 ran from 285 to 290 (remaining time: 33)
+[Time 290   ] P34 returned to the ready queue
+[Time 295   ] P14 ran from 290 to 295 (remaining time: 39)
+[Time 295   ] P14 returned to the ready queue
+[Time 298   ] P35 ran from 295 to 298 (remaining time: 0)
+[Time 298   ] P35 completed
+[Time 299   ] P13 ran from 298 to 299 (remaining time: 0)
+[Time 299   ] P13 completed
+[Time 304   ] P37 ran from 299 to 304 (remaining time: 12)
+[Time 304   ] P37 returned to the ready queue
+[Time 309   ] P33 ran from 304 to 309 (remaining time: 21)
+[Time 309   ] P33 returned to the ready queue
+[Time 314   ] P36 ran from 309 to 314 (remaining time: 3)
+[Time 314   ] P36 returned to the ready queue
+[Time 319   ] P21 ran from 314 to 319 (remaining time: 0)
+[Time 319   ] P21 completed
+[Time 324   ] P8 ran from 319 to 324 (remaining time: 21)
+[Time 324   ] P8 returned to the ready queue
+[Time 329   ] P11 ran from 324 to 329 (remaining time: 33)
+[Time 329   ] P11 returned to the ready queue
+[Time 334   ] P29 ran from 329 to 334 (remaining time: 22)
+[Time 334   ] P29 returned to the ready queue
+[Time 339   ] P18 ran from 334 to 339 (remaining time: 23)
+[Time 339   ] P18 returned to the ready queue
+[Time 344   ] P7 ran from 339 to 344 (remaining time: 14)
+[Time 344   ] P7 returned to the ready queue
+[Time 349   ] P9 ran from 344 to 349 (remaining time: 33)
+[Time 349   ] P9 returned to the ready queue
+[Time 354   ] P24 ran from 349 to 354 (remaining time: 2)
+[Time 354   ] P24 returned to the ready queue
+[Time 359   ] P26 ran from 354 to 359 (remaining time: 18)
+[Time 359   ] P26 returned to the ready queue
+[Time 364   ] P27 ran from 359 to 364 (remaining time: 32)
+[Time 364   ] P27 returned to the ready queue
+[Time 369   ] P16 ran from 364 to 369 (remaining time: 17)
+[Time 369   ] P16 returned to the ready queue
+[Time 370   ] P30 ran from 369 to 370 (remaining time: 0)
+[Time 370   ] P30 completed
+[Time 375   ] P40 ran from 370 to 375 (remaining time: 32)
+[Time 375   ] P40 returned to the ready queue
+[Time 380   ] P5 ran from 375 to 380 (remaining time: 38)
+[Time 380   ] P5 returned to the ready queue
+[Time 385   ] P10 ran from 380 to 385 (remaining time: 18)
+[Time 385   ] P10 returned to the ready queue
+[Time 390   ] P39 ran from 385 to 390 (remaining time: 27)
+[Time 390   ] P39 returned to the ready queue
+[Time 395   ] P31 ran from 390 to 395 (remaining time: 11)
+[Time 395   ] P31 returned to the ready queue
+[Time 400   ] P2 ran from 395 to 400 (remaining time: 2)
+[Time 400   ] P2 returned to the ready queue
+[Time 405   ] P15 ran from 400 to 405 (remaining time: 15)
+[Time 405   ] P15 returned to the ready queue
+[Time 410   ] P1 ran from 405 to 410 (remaining time: 11)
+[Time 410   ] P1 returned to the ready queue
+[Time 415   ] P12 ran from 410 to 415 (remaining time: 9)
+[Time 415   ] P12 returned to the ready queue
+[Time 420   ] P6 ran from 415 to 420 (remaining time: 11)
+[Time 420   ] P6 returned to the ready queue
+[Time 425   ] P28 ran from 420 to 425 (remaining time: 3)
+[Time 425   ] P28 returned to the ready queue
+[Time 427   ] P32 ran from 425 to 427 (remaining time: 0)
+[Time 427   ] P32 completed
+[Time 432   ] P34 ran from 427 to 432 (remaining time: 28)
+[Time 432   ] P34 returned to the ready queue
+[Time 437   ] P14 ran from 432 to 437 (remaining time: 34)
+[Time 437   ] P14 returned to the ready queue
+[Time 442   ] P37 ran from 437 to 442 (remaining time: 7)
+[Time 442   ] P37 returned to the ready queue
+[Time 447   ] P33 ran from 442 to 447 (remaining time: 16)
+[Time 447   ] P33 returned to the ready queue
+[Time 450   ] P36 ran from 447 to 450 (remaining time: 0)
+[Time 450   ] P36 completed
+[Time 455   ] P8 ran from 450 to 455 (remaining time: 16)
+[Time 455   ] P8 returned to the ready queue
+[Time 460   ] P11 ran from 455 to 460 (remaining time: 28)
+[Time 460   ] P11 returned to the ready queue
+[Time 465   ] P29 ran from 460 to 465 (remaining time: 17)
+[Time 465   ] P29 returned to the ready queue
+[Time 470   ] P18 ran from 465 to 470 (remaining time: 18)
+[Time 470   ] P18 returned to the ready queue
+[Time 475   ] P7 ran from 470 to 475 (remaining time: 9)
+[Time 475   ] P7 returned to the ready queue
+[Time 480   ] P9 ran from 475 to 480 (remaining time: 28)
+[Time 480   ] P9 returned to the ready queue
+[Time 482   ] P24 ran from 480 to 482 (remaining time: 0)
+[Time 482   ] P24 completed
+[Time 487   ] P26 ran from 482 to 487 (remaining time: 13)
+[Time 487   ] P26 returned to the ready queue
+[Time 492   ] P27 ran from 487 to 492 (remaining time: 27)
+[Time 492   ] P27 returned to the ready queue
+[Time 497   ] P16 ran from 492 to 497 (remaining time: 12)
+[Time 497   ] P16 returned to the ready queue
+[Time 502   ] P40 ran from 497 to 502 (remaining time: 27)
+[Time 502   ] P40 returned to the ready queue
+[Time 507   ] P5 ran from 502 to 507 (remaining time: 33)
+[Time 507   ] P5 returned to the ready queue
+[Time 512   ] P10 ran from 507 to 512 (remaining time: 13)
+[Time 512   ] P10 returned to the ready queue
+[Time 517   ] P39 ran from 512 to 517 (remaining time: 22)
+[Time 517   ] P39 returned to the ready queue
+[Time 522   ] P31 ran from 517 to 522 (remaining time: 6)
+[Time 522   ] P31 returned to the ready queue
+[Time 524   ] P2 ran from 522 to 524 (remaining time: 0)
+[Time 524   ] P2 completed
+[Time 529   ] P15 ran from 524 to 529 (remaining time: 10)
+[Time 529   ] P15 returned to the ready queue
+[Time 534   ] P1 ran from 529 to 534 (remaining time: 6)
+[Time 534   ] P1 returned to the ready queue
+[Time 539   ] P12 ran from 534 to 539 (remaining time: 4)
+[Time 539   ] P12 returned to the ready queue
+[Time 544   ] P6 ran from 539 to 544 (remaining time: 6)
+[Time 544   ] P6 returned to the ready queue
+[Time 547   ] P28 ran from 544 to 547 (remaining time: 0)
+[Time 547   ] P28 completed
+[Time 552   ] P34 ran from 547 to 552 (remaining time: 23)
+[Time 552   ] P34 returned to the ready queue
+[Time 557   ] P14 ran from 552 to 557 (remaining time: 29)
+[Time 557   ] P14 returned to the ready queue
+[Time 562   ] P37 ran from 557 to 562 (remaining time: 2)
+[Time 562   ] P37 returned to the ready queue
+[Time 567   ] P33 ran from 562 to 567 (remaining time: 11)
+[Time 567   ] P33 returned to the ready queue
+[Time 572   ] P8 ran from 567 to 572 (remaining time: 11)
+[Time 572   ] P8 returned to the ready queue
+[Time 577   ] P11 ran from 572 to 577 (remaining time: 23)
+[Time 577   ] P11 returned to the ready queue
+[Time 582   ] P29 ran from 577 to 582 (remaining time: 12)
+[Time 582   ] P29 returned to the ready queue
+[Time 587   ] P18 ran from 582 to 587 (remaining time: 13)
+[Time 587   ] P18 returned to the ready queue
+[Time 592   ] P7 ran from 587 to 592 (remaining time: 4)
+[Time 592   ] P7 returned to the ready queue
+[Time 597   ] P9 ran from 592 to 597 (remaining time: 23)
+[Time 597   ] P9 returned to the ready queue
+[Time 602   ] P26 ran from 597 to 602 (remaining time: 8)
+[Time 602   ] P26 returned to the ready queue
+[Time 607   ] P27 ran from 602 to 607 (remaining time: 22)
+[Time 607   ] P27 returned to the ready queue
+[Time 612   ] P16 ran from 607 to 612 (remaining time: 7)
+[Time 612   ] P16 returned to the ready queue
+[Time 617   ] P40 ran from 612 to 617 (remaining time: 22)
+[Time 617   ] P40 returned to the ready queue
+[Time 622   ] P5 ran from 617 to 622 (remaining time: 28)
+[Time 622   ] P5 returned to the ready queue
+[Time 627   ] P10 ran from 622 to 627 (remaining time: 8)
+[Time 627   ] P10 returned to the ready queue
+[Time 632   ] P39 ran from 627 to 632 (remaining time: 17)
+[Time 632   ] P39 returned to the ready queue
+[Time 637   ] P31 ran from 632 to 637 (remaining time: 1)
+[Time 637   ] P31 returned to the ready queue
+[Time 642   ] P15 ran from 637 to 642 (remaining time: 5)
+[Time 642   ] P15 returned to the ready queue
+[Time 647   ] P1 ran from 642 to 647 (remaining time: 1)
+[Time 647   ] P1 returned to the ready queue
+[Time 651   ] P12 ran from 647 to 651 (remaining time: 0)
+[Time 651   ] P12 completed
+[Time 656   ] P6 ran from 651 to 656 (remaining time: 1)
+[Time 656   ] P6 returned to the ready queue
+[Time 661   ] P34 ran from 656 to 661 (remaining time: 18)
+[Time 661   ] P34 returned to the ready queue
+[Time 666   ] P14 ran from 661 to 666 (remaining time: 24)
+[Time 666   ] P14 returned to the ready queue
+[Time 668   ] P37 ran from 666 to 668 (remaining time: 0)
+[Time 668   ] P37 completed
+[Time 673   ] P33 ran from 668 to 673 (remaining time: 6)
+[Time 673   ] P33 returned to the ready queue
+[Time 678   ] P8 ran from 673 to 678 (remaining time: 6)
+[Time 678   ] P8 returned to the ready queue
+[Time 683   ] P11 ran from 678 to 683 (remaining time: 18)
+[Time 683   ] P11 returned to the ready queue
+[Time 688   ] P29 ran from 683 to 688 (remaining time: 7)
+[Time 688   ] P29 returned to the ready queue
+[Time 693   ] P18 ran from 688 to 693 (remaining time: 8)
+[Time 693   ] P18 returned to the ready queue
+[Time 697   ] P7 ran from 693 to 697 (remaining time: 0)
+[Time 697   ] P7 completed
+[Time 702   ] P9 ran from 697 to 702 (remaining time: 18)
+[Time 702   ] P9 returned to the ready queue
+[Time 707   ] P26 ran from 702 to 707 (remaining time: 3)
+[Time 707   ] P26 returned to the ready queue
+[Time 712   ] P27 ran from 707 to 712 (remaining time: 17)
+[Time 712   ] P27 returned to the ready queue
+[Time 717   ] P16 ran from 712 to 717 (remaining time: 2)
+[Time 717   ] P16 returned to the ready queue
+[Time 722   ] P40 ran from 717 to 722 (remaining time: 17)
+[Time 722   ] P40 returned to the ready queue
+[Time 727   ] P5 ran from 722 to 727 (remaining time: 23)
+[Time 727   ] P5 returned to the ready queue
+[Time 732   ] P10 ran from 727 to 732 (remaining time: 3)
+[Time 732   ] P10 returned to the ready queue
+[Time 737   ] P39 ran from 732 to 737 (remaining time: 12)
+[Time 737   ] P39 returned to the ready queue
+[Time 738   ] P31 ran from 737 to 738 (remaining time: 0)
+[Time 738   ] P31 completed
+[Time 743   ] P15 ran from 738 to 743 (remaining time: 0)
+[Time 743   ] P15 completed
+[Time 744   ] P1 ran from 743 to 744 (remaining time: 0)
+[Time 744   ] P1 completed
+[Time 745   ] P6 ran from 744 to 745 (remaining time: 0)
+[Time 745   ] P6 completed
+[Time 750   ] P34 ran from 745 to 750 (remaining time: 13)
+[Time 750   ] P34 returned to the ready queue
+[Time 755   ] P14 ran from 750 to 755 (remaining time: 19)
+[Time 755   ] P14 returned to the ready queue
+[Time 760   ] P33 ran from 755 to 760 (remaining time: 1)
+[Time 760   ] P33 returned to the ready queue
+[Time 765   ] P8 ran from 760 to 765 (remaining time: 1)
+[Time 765   ] P8 returned to the ready queue
+[Time 770   ] P11 ran from 765 to 770 (remaining time: 13)
+[Time 770   ] P11 returned to the ready queue
+[Time 775   ] P29 ran from 770 to 775 (remaining time: 2)
+[Time 775   ] P29 returned to the ready queue
+[Time 780   ] P18 ran from 775 to 780 (remaining time: 3)
+[Time 780   ] P18 returned to the ready queue
+[Time 785   ] P9 ran from 780 to 785 (remaining time: 13)
+[Time 785   ] P9 returned to the ready queue
+[Time 788   ] P26 ran from 785 to 788 (remaining time: 0)
+[Time 788   ] P26 completed
+[Time 793   ] P27 ran from 788 to 793 (remaining time: 12)
+[Time 793   ] P27 returned to the ready queue
+[Time 795   ] P16 ran from 793 to 795 (remaining time: 0)
+[Time 795   ] P16 completed
+[Time 800   ] P40 ran from 795 to 800 (remaining time: 12)
+[Time 800   ] P40 returned to the ready queue
+[Time 805   ] P5 ran from 800 to 805 (remaining time: 18)
+[Time 805   ] P5 returned to the ready queue
+[Time 808   ] P10 ran from 805 to 808 (remaining time: 0)
+[Time 808   ] P10 completed
+[Time 813   ] P39 ran from 808 to 813 (remaining time: 7)
+[Time 813   ] P39 returned to the ready queue
+[Time 818   ] P34 ran from 813 to 818 (remaining time: 8)
+[Time 818   ] P34 returned to the ready queue
+[Time 823   ] P14 ran from 818 to 823 (remaining time: 14)
+[Time 823   ] P14 returned to the ready queue
+[Time 824   ] P33 ran from 823 to 824 (remaining time: 0)
+[Time 824   ] P33 completed
+[Time 825   ] P8 ran from 824 to 825 (remaining time: 0)
+[Time 825   ] P8 completed
+[Time 830   ] P11 ran from 825 to 830 (remaining time: 8)
+[Time 830   ] P11 returned to the ready queue
+[Time 832   ] P29 ran from 830 to 832 (remaining time: 0)
+[Time 832   ] P29 completed
+[Time 835   ] P18 ran from 832 to 835 (remaining time: 0)
+[Time 835   ] P18 completed
+[Time 840   ] P9 ran from 835 to 840 (remaining time: 8)
+[Time 840   ] P9 returned to the ready queue
+[Time 845   ] P27 ran from 840 to 845 (remaining time: 7)
+[Time 845   ] P27 returned to the ready queue
+[Time 850   ] P40 ran from 845 to 850 (remaining time: 7)
+[Time 850   ] P40 returned to the ready queue
+[Time 855   ] P5 ran from 850 to 855 (remaining time: 13)
+[Time 855   ] P5 returned to the ready queue
+[Time 860   ] P39 ran from 855 to 860 (remaining time: 2)
+[Time 860   ] P39 returned to the ready queue
+[Time 865   ] P34 ran from 860 to 865 (remaining time: 3)
+[Time 865   ] P34 returned to the ready queue
+[Time 870   ] P14 ran from 865 to 870 (remaining time: 9)
+[Time 870   ] P14 returned to the ready queue
+[Time 875   ] P11 ran from 870 to 875 (remaining time: 3)
+[Time 875   ] P11 returned to the ready queue
+[Time 880   ] P9 ran from 875 to 880 (remaining time: 3)
+[Time 880   ] P9 returned to the ready queue
+[Time 885   ] P27 ran from 880 to 885 (remaining time: 2)
+[Time 885   ] P27 returned to the ready queue
+[Time 890   ] P40 ran from 885 to 890 (remaining time: 2)
+[Time 890   ] P40 returned to the ready queue
+[Time 895   ] P5 ran from 890 to 895 (remaining time: 8)
+[Time 895   ] P5 returned to the ready queue
+[Time 897   ] P39 ran from 895 to 897 (remaining time: 0)
+[Time 897   ] P39 completed
+[Time 900   ] P34 ran from 897 to 900 (remaining time: 0)
+[Time 900   ] P34 completed
+[Time 905   ] P14 ran from 900 to 905 (remaining time: 4)
+[Time 905   ] P14 returned to the ready queue
+[Time 908   ] P11 ran from 905 to 908 (remaining time: 0)
+[Time 908   ] P11 completed
+[Time 911   ] P9 ran from 908 to 911 (remaining time: 0)
+[Time 911   ] P9 completed
+[Time 913   ] P27 ran from 911 to 913 (remaining time: 0)
+[Time 913   ] P27 completed
+[Time 915   ] P40 ran from 913 to 915 (remaining time: 0)
+[Time 915   ] P40 completed
+[Time 920   ] P5 ran from 915 to 920 (remaining time: 3)
+[Time 920   ] P5 returned to the ready queue
+[Time 924   ] P14 ran from 920 to 924 (remaining time: 0)
+[Time 924   ] P14 completed
+[Time 927   ] P5 ran from 924 to 927 (remaining time: 0)
+[Time 927   ] P5 completed
+[Time 927   ] Round Robin simulation completed
 
 ============================================================
 SUMMARY
-Average Waiting Time: 570.98
-Average Turnaround Time: 593.95
-Average Response Time: 94.15
-Context Switches: 199
-Total Completion Time: 920
+Average Waiting Time: 530.12
+Average Turnaround Time: 553.27
+Average Response Time: 85.78
+Context Switches: 204
+Total Completion Time: 927
 CPU Utilization: 99.89%
-Throughput: 0.0435 processes/unit time
+Throughput: 0.0431 processes/unit time
