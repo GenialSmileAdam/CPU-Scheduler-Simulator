@@ -95,24 +95,68 @@ class SRTFScheduler:
         print("\n✓ Saved: ./results/srtf_simulation_log.txt, ./results/srtf_simulation_results.csv")
     
     def plot_gantt(self):
-        fig, ax = plt.subplots(figsize=(12, 2))
-        colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd']
-        merged = []
-        for pid, s, e in self.gantt:
-            if merged and merged[-1][0] == pid and merged[-1][2] == s:
-                merged[-1] = (pid, merged[-1][1], e)
-            else:
-                merged.append((pid, s, e))
-        
-        for pid, s, e in merged:
-            ax.barh(0, e-s, left=s, color=colors[pid%5], edgecolor='black')
-            if e-s > 0.5:
-                ax.text(s+(e-s)/2, 0, f"P{pid}", ha='center', va='center', fontsize=8)
-        
-        ax.set_yticks([])
-        ax.set_xlabel('Time')
-        ax.set_title('SRTF Gantt Chart')
+        if not self.gantt:
+            print("No Gantt chart data available")
+            return
+
+        segments_per_row = 40
+        total_segments = len(self.gantt)
+        num_rows = (total_segments + segments_per_row - 1) // segments_per_row
+
+        fig, axes = plt.subplots(num_rows, 1, figsize=(16, max(3, 2.2 * num_rows)), squeeze=False)
+
+        unique_processes = list(set([pid for pid, _, _ in self.gantt]))
+        try:
+            colormap = plt.get_cmap('tab20')
+            colors = [colormap(i) for i in range(len(unique_processes))]
+        except:
+            colormap = plt.get_cmap('Set3')
+            colors = [colormap(i % 12) for i in range(len(unique_processes))]
+
+        color_map = {pid: colors[i] for i, pid in enumerate(sorted(unique_processes))}
+
+        for row_idx in range(num_rows):
+            ax = axes[row_idx][0]
+            start_idx = row_idx * segments_per_row
+            end_idx = min((row_idx + 1) * segments_per_row, total_segments)
+            row_segments = self.gantt[start_idx:end_idx]
+
+            if not row_segments:
+                continue
+
+            row_start_time = row_segments[0][1]
+            time_offset = row_start_time
+
+            for pid, start, end in row_segments:
+                adjusted_start = start - time_offset
+                adjusted_end = end - time_offset
+                duration = adjusted_end - adjusted_start
+
+                ax.barh(y=0, width=duration, left=adjusted_start,
+                        color=color_map[pid], edgecolor='black', linewidth=1)
+
+                if duration > 0.5:
+                    mid_x = adjusted_start + duration / 2
+                    ax.text(mid_x, 0, f"P{pid}", ha='center', va='center',
+                            fontsize=8, fontweight='bold')
+
+            ax.set_xlabel('Time', fontsize=10, fontweight='bold')
+            ax.set_ylabel('CPU', fontsize=10, fontweight='bold')
+            ax.set_ylim(-0.5, 0.5)
+            ax.set_yticks([])
+            ax.grid(axis='x', alpha=0.3, linestyle=':', linewidth=0.5)
+
+            max_time_in_row = max([end - time_offset for _, _, end in row_segments])
+            ax.set_xlim(-0.5, max_time_in_row + 1)
+
+            xticks = range(0, int(max_time_in_row) + 1, max(1, int(max_time_in_row / 10)))
+            ax.set_xticks(xticks)
+            ax.set_xticklabels([str(int(row_start_time + tick)) for tick in xticks])
+
+            if row_idx == 0:
+                ax.set_title('SRTF Scheduling - Gantt Chart',
+                             fontsize=12, fontweight='bold')
+
         plt.tight_layout()
-        plt.savefig('./results/srtf_simulation_gantt.png', dpi=150)
-        plt.show()
-        print("✓ Saved: ./results/srtf_simulation_gantt.png")
+        plt.savefig('./results/srtf_gantt_chart.png', dpi=300, bbox_inches='tight')
+        print("✓ Saved: ./results/srtf_gantt_chart.png")
