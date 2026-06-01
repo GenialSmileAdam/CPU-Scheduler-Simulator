@@ -6,7 +6,7 @@ from random import randint
 STATIC_FOLDER = "./static"
 CSV_FILENAME = "./static/data.csv"
 NUMBER_OF_PROCESSES = 40
-ARRIVAL_TIME_MIN = 1
+ARRIVAL_TIME_MIN = 0
 ARRIVAL_TIME_MAX = 50
 BURST_TIME_MIN = 1
 BURST_TIME_MAX = 50

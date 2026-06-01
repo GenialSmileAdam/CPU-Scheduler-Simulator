@@ -1,117 +1,217 @@
 ================================================================================
 SJF NON-PREEMPTIVE SIMULATION LOG
-Generated: 2026-05-18 12:08:27
-Total Processes: 20
+Generated: 2026-06-01 12:38:56
+Total Processes: 40
 ================================================================================
 
 [Time 0.00]     === SJF NON-PREEMPTIVE SIMULATION STARTED ===
-[Time 0.00]     Ready Queue: [P9(5), P10(33)]
-[Time 0.00]     Process P9 gets CPU for the FIRST TIME (response time = 0.00)
-[Time 5.00]     P9 runs from 0.00 to 5.00 (duration: 5)
-[Time 5.00]     [COMPLETED] P9 finished! (TAT=5.00, WT=0.00)
-[Time 5.00]     Progress: 1/20 processes completed
-[Time 5.00]     Ready Queue: [P5(7), P12(12), P10(33)]
-[Time 5.00]     Process P5 gets CPU for the FIRST TIME (response time = 1.00)
-[Time 12.00]    P5 runs from 5.00 to 12.00 (duration: 7)
-[Time 12.00]    [COMPLETED] P5 finished! (TAT=8.00, WT=1.00)
-[Time 12.00]    Progress: 2/20 processes completed
-[Time 12.00]    Ready Queue: [P12(12), P20(14), P8(23), P3(26), P10(33), P6(37), P11(37), P7(37)]
-[Time 12.00]    Process P12 gets CPU for the FIRST TIME (response time = 11.00)
-[Time 24.00]    P12 runs from 12.00 to 24.00 (duration: 12)
-[Time 24.00]    [COMPLETED] P12 finished! (TAT=23.00, WT=11.00)
-[Time 24.00]    Progress: 3/20 processes completed
-[Time 24.00]    Ready Queue: [P2(5), P1(9), P17(10), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 24.00]    Process P2 gets CPU for the FIRST TIME (response time = 7.00)
-[Time 29.00]    P2 runs from 24.00 to 29.00 (duration: 5)
-[Time 29.00]    [COMPLETED] P2 finished! (TAT=12.00, WT=7.00)
-[Time 29.00]    Progress: 4/20 processes completed
-[Time 29.00]    Ready Queue: [P16(4), P1(9), P17(10), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 29.00]    Process P16 gets CPU for the FIRST TIME (response time = 0.00)
-[Time 33.00]    P16 runs from 29.00 to 33.00 (duration: 4)
-[Time 33.00]    [COMPLETED] P16 finished! (TAT=4.00, WT=0.00)
-[Time 33.00]    Progress: 5/20 processes completed
-[Time 33.00]    Ready Queue: [P1(9), P17(10), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 33.00]    Process P1 gets CPU for the FIRST TIME (response time = 20.00)
-[Time 42.00]    P1 runs from 33.00 to 42.00 (duration: 9)
-[Time 42.00]    [COMPLETED] P1 finished! (TAT=29.00, WT=20.00)
-[Time 42.00]    Progress: 6/20 processes completed
-[Time 42.00]    Ready Queue: [P17(10), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 42.00]    Process P17 gets CPU for the FIRST TIME (response time = 18.00)
-[Time 52.00]    P17 runs from 42.00 to 52.00 (duration: 10)
-[Time 52.00]    [COMPLETED] P17 finished! (TAT=28.00, WT=18.00)
-[Time 52.00]    Progress: 7/20 processes completed
-[Time 52.00]    Ready Queue: [P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 52.00]    Process P18 gets CPU for the FIRST TIME (response time = 24.00)
-[Time 65.00]    P18 runs from 52.00 to 65.00 (duration: 13)
-[Time 65.00]    [COMPLETED] P18 finished! (TAT=37.00, WT=24.00)
-[Time 65.00]    Progress: 8/20 processes completed
-[Time 65.00]    Ready Queue: [P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 65.00]    Process P20 gets CPU for the FIRST TIME (response time = 54.00)
-[Time 79.00]    P20 runs from 65.00 to 79.00 (duration: 14)
-[Time 79.00]    [COMPLETED] P20 finished! (TAT=68.00, WT=54.00)
-[Time 79.00]    Progress: 9/20 processes completed
-[Time 79.00]    Ready Queue: [P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 79.00]    Process P13 gets CPU for the FIRST TIME (response time = 57.00)
-[Time 94.00]    P13 runs from 79.00 to 94.00 (duration: 15)
-[Time 94.00]    [COMPLETED] P13 finished! (TAT=72.00, WT=57.00)
-[Time 94.00]    Progress: 10/20 processes completed
-[Time 94.00]    Ready Queue: [P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 94.00]    Process P8 gets CPU for the FIRST TIME (response time = 85.00)
-[Time 117.00]   P8 runs from 94.00 to 117.00 (duration: 23)
-[Time 117.00]   [COMPLETED] P8 finished! (TAT=108.00, WT=85.00)
-[Time 117.00]   Progress: 11/20 processes completed
-[Time 117.00]   Ready Queue: [P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 117.00]   Process P3 gets CPU for the FIRST TIME (response time = 105.00)
-[Time 143.00]   P3 runs from 117.00 to 143.00 (duration: 26)
-[Time 143.00]   [COMPLETED] P3 finished! (TAT=131.00, WT=105.00)
-[Time 143.00]   Progress: 12/20 processes completed
-[Time 143.00]   Ready Queue: [P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 143.00]   Process P14 gets CPU for the FIRST TIME (response time = 125.00)
-[Time 170.00]   P14 runs from 143.00 to 170.00 (duration: 27)
-[Time 170.00]   [COMPLETED] P14 finished! (TAT=152.00, WT=125.00)
-[Time 170.00]   Progress: 13/20 processes completed
-[Time 170.00]   Ready Queue: [P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 170.00]   Process P10 gets CPU for the FIRST TIME (response time = 170.00)
-[Time 203.00]   P10 runs from 170.00 to 203.00 (duration: 33)
-[Time 203.00]   [COMPLETED] P10 finished! (TAT=203.00, WT=170.00)
-[Time 203.00]   Progress: 14/20 processes completed
-[Time 203.00]   Ready Queue: [P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 203.00]   Process P6 gets CPU for the FIRST TIME (response time = 195.00)
-[Time 240.00]   P6 runs from 203.00 to 240.00 (duration: 37)
-[Time 240.00]   [COMPLETED] P6 finished! (TAT=232.00, WT=195.00)
-[Time 240.00]   Progress: 15/20 processes completed
-[Time 240.00]   Ready Queue: [P11(37), P7(37), P19(39), P4(41), P15(47)]
-[Time 240.00]   Process P11 gets CPU for the FIRST TIME (response time = 232.00)
-[Time 277.00]   P11 runs from 240.00 to 277.00 (duration: 37)
-[Time 277.00]   [COMPLETED] P11 finished! (TAT=269.00, WT=232.00)
-[Time 277.00]   Progress: 16/20 processes completed
-[Time 277.00]   Ready Queue: [P7(37), P19(39), P4(41), P15(47)]
-[Time 277.00]   Process P7 gets CPU for the FIRST TIME (response time = 268.00)
-[Time 314.00]   P7 runs from 277.00 to 314.00 (duration: 37)
-[Time 314.00]   [COMPLETED] P7 finished! (TAT=305.00, WT=268.00)
-[Time 314.00]   Progress: 17/20 processes completed
-[Time 314.00]   Ready Queue: [P19(39), P4(41), P15(47)]
-[Time 314.00]   Process P19 gets CPU for the FIRST TIME (response time = 301.00)
-[Time 353.00]   P19 runs from 314.00 to 353.00 (duration: 39)
-[Time 353.00]   [COMPLETED] P19 finished! (TAT=340.00, WT=301.00)
-[Time 353.00]   Progress: 18/20 processes completed
-[Time 353.00]   Ready Queue: [P4(41), P15(47)]
-[Time 353.00]   Process P4 gets CPU for the FIRST TIME (response time = 330.00)
-[Time 394.00]   P4 runs from 353.00 to 394.00 (duration: 41)
-[Time 394.00]   [COMPLETED] P4 finished! (TAT=371.00, WT=330.00)
-[Time 394.00]   Progress: 19/20 processes completed
-[Time 394.00]   Ready Queue: [P15(47)]
-[Time 394.00]   Process P15 gets CPU for the FIRST TIME (response time = 370.00)
-[Time 441.00]   P15 runs from 394.00 to 441.00 (duration: 47)
-[Time 441.00]   [COMPLETED] P15 finished! (TAT=417.00, WT=370.00)
-[Time 441.00]   Progress: 20/20 processes completed
-[Time 441.00]   === SJF NON-PREEMPTIVE SIMULATION COMPLETED ===
+[Time 0.00]     Ready Queue: [P31(45)]
+[Time 0.00]     Process P31 gets CPU for the FIRST TIME (response time = 0.00)
+[Time 45.00]    P31 runs from 0.00 to 45.00 (duration: 45)
+[Time 45.00]    [COMPLETED] P31 finished! (TAT=45.00, WT=0.00)
+[Time 45.00]    Progress: 1/40 processes completed
+[Time 45.00]    Ready Queue: [P28(3), P4(6), P39(6), P33(6), P35(8), P40(10), P23(10), P7(13), P14(14), P30(19), P11(19), P3(20), P13(21), P15(22), P37(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P38(45), P27(45), P10(48), P24(49)]
+[Time 45.00]    Process P28 gets CPU for the FIRST TIME (response time = 16.00)
+[Time 48.00]    P28 runs from 45.00 to 48.00 (duration: 3)
+[Time 48.00]    [COMPLETED] P28 finished! (TAT=19.00, WT=16.00)
+[Time 48.00]    Progress: 2/40 processes completed
+[Time 48.00]    Ready Queue: [P4(6), P39(6), P33(6), P35(8), P40(10), P23(10), P7(13), P14(14), P30(19), P11(19), P3(20), P13(21), P15(22), P37(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 48.00]    Process P4 gets CPU for the FIRST TIME (response time = 44.00)
+[Time 54.00]    P4 runs from 48.00 to 54.00 (duration: 6)
+[Time 54.00]    [COMPLETED] P4 finished! (TAT=50.00, WT=44.00)
+[Time 54.00]    Progress: 3/40 processes completed
+[Time 54.00]    Ready Queue: [P39(6), P33(6), P35(8), P40(10), P23(10), P7(13), P14(14), P25(18), P30(19), P11(19), P3(20), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 54.00]    Process P39 gets CPU for the FIRST TIME (response time = 32.00)
+[Time 60.00]    P39 runs from 54.00 to 60.00 (duration: 6)
+[Time 60.00]    [COMPLETED] P39 finished! (TAT=38.00, WT=32.00)
+[Time 60.00]    Progress: 4/40 processes completed
+[Time 60.00]    Ready Queue: [P33(6), P35(8), P40(10), P23(10), P7(13), P14(14), P25(18), P30(19), P11(19), P3(20), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 60.00]    Process P33 gets CPU for the FIRST TIME (response time = 20.00)
+[Time 66.00]    P33 runs from 60.00 to 66.00 (duration: 6)
+[Time 66.00]    [COMPLETED] P33 finished! (TAT=26.00, WT=20.00)
+[Time 66.00]    Progress: 5/40 processes completed
+[Time 66.00]    Ready Queue: [P35(8), P40(10), P23(10), P7(13), P14(14), P25(18), P30(19), P11(19), P3(20), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 66.00]    Process P35 gets CPU for the FIRST TIME (response time = 27.00)
+[Time 74.00]    P35 runs from 66.00 to 74.00 (duration: 8)
+[Time 74.00]    [COMPLETED] P35 finished! (TAT=35.00, WT=27.00)
+[Time 74.00]    Progress: 6/40 processes completed
+[Time 74.00]    Ready Queue: [P40(10), P23(10), P7(13), P14(14), P25(18), P30(19), P11(19), P3(20), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 74.00]    Process P40 gets CPU for the FIRST TIME (response time = 71.00)
+[Time 84.00]    P40 runs from 74.00 to 84.00 (duration: 10)
+[Time 84.00]    [COMPLETED] P40 finished! (TAT=81.00, WT=71.00)
+[Time 84.00]    Progress: 7/40 processes completed
+[Time 84.00]    Ready Queue: [P23(10), P7(13), P14(14), P25(18), P30(19), P11(19), P3(20), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 84.00]    Process P23 gets CPU for the FIRST TIME (response time = 45.00)
+[Time 94.00]    P23 runs from 84.00 to 94.00 (duration: 10)
+[Time 94.00]    [COMPLETED] P23 finished! (TAT=55.00, WT=45.00)
+[Time 94.00]    Progress: 8/40 processes completed
+[Time 94.00]    Ready Queue: [P7(13), P14(14), P25(18), P30(19), P11(19), P3(20), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 94.00]    Process P7 gets CPU for the FIRST TIME (response time = 55.00)
+[Time 107.00]   P7 runs from 94.00 to 107.00 (duration: 13)
+[Time 107.00]   [COMPLETED] P7 finished! (TAT=68.00, WT=55.00)
+[Time 107.00]   Progress: 9/40 processes completed
+[Time 107.00]   Ready Queue: [P14(14), P25(18), P30(19), P11(19), P3(20), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 107.00]   Process P14 gets CPU for the FIRST TIME (response time = 66.00)
+[Time 121.00]   P14 runs from 107.00 to 121.00 (duration: 14)
+[Time 121.00]   [COMPLETED] P14 finished! (TAT=80.00, WT=66.00)
+[Time 121.00]   Progress: 10/40 processes completed
+[Time 121.00]   Ready Queue: [P25(18), P30(19), P11(19), P3(20), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 121.00]   Process P25 gets CPU for the FIRST TIME (response time = 71.00)
+[Time 139.00]   P25 runs from 121.00 to 139.00 (duration: 18)
+[Time 139.00]   [COMPLETED] P25 finished! (TAT=89.00, WT=71.00)
+[Time 139.00]   Progress: 11/40 processes completed
+[Time 139.00]   Ready Queue: [P30(19), P11(19), P3(20), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 139.00]   Process P30 gets CPU for the FIRST TIME (response time = 118.00)
+[Time 158.00]   P30 runs from 139.00 to 158.00 (duration: 19)
+[Time 158.00]   [COMPLETED] P30 finished! (TAT=137.00, WT=118.00)
+[Time 158.00]   Progress: 12/40 processes completed
+[Time 158.00]   Ready Queue: [P11(19), P3(20), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 158.00]   Process P11 gets CPU for the FIRST TIME (response time = 115.00)
+[Time 177.00]   P11 runs from 158.00 to 177.00 (duration: 19)
+[Time 177.00]   [COMPLETED] P11 finished! (TAT=134.00, WT=115.00)
+[Time 177.00]   Progress: 13/40 processes completed
+[Time 177.00]   Ready Queue: [P3(20), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 177.00]   Process P3 gets CPU for the FIRST TIME (response time = 174.00)
+[Time 197.00]   P3 runs from 177.00 to 197.00 (duration: 20)
+[Time 197.00]   [COMPLETED] P3 finished! (TAT=194.00, WT=174.00)
+[Time 197.00]   Progress: 14/40 processes completed
+[Time 197.00]   Ready Queue: [P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 197.00]   Process P13 gets CPU for the FIRST TIME (response time = 161.00)
+[Time 218.00]   P13 runs from 197.00 to 218.00 (duration: 21)
+[Time 218.00]   [COMPLETED] P13 finished! (TAT=182.00, WT=161.00)
+[Time 218.00]   Progress: 15/40 processes completed
+[Time 218.00]   Ready Queue: [P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 218.00]   Process P15 gets CPU for the FIRST TIME (response time = 183.00)
+[Time 240.00]   P15 runs from 218.00 to 240.00 (duration: 22)
+[Time 240.00]   [COMPLETED] P15 finished! (TAT=205.00, WT=183.00)
+[Time 240.00]   Progress: 16/40 processes completed
+[Time 240.00]   Ready Queue: [P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 240.00]   Process P37 gets CPU for the FIRST TIME (response time = 203.00)
+[Time 262.00]   P37 runs from 240.00 to 262.00 (duration: 22)
+[Time 262.00]   [COMPLETED] P37 finished! (TAT=225.00, WT=203.00)
+[Time 262.00]   Progress: 17/40 processes completed
+[Time 262.00]   Ready Queue: [P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 262.00]   Process P1 gets CPU for the FIRST TIME (response time = 212.00)
+[Time 284.00]   P1 runs from 262.00 to 284.00 (duration: 22)
+[Time 284.00]   [COMPLETED] P1 finished! (TAT=234.00, WT=212.00)
+[Time 284.00]   Progress: 18/40 processes completed
+[Time 284.00]   Ready Queue: [P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 284.00]   Process P2 gets CPU for the FIRST TIME (response time = 247.00)
+[Time 307.00]   P2 runs from 284.00 to 307.00 (duration: 23)
+[Time 307.00]   [COMPLETED] P2 finished! (TAT=270.00, WT=247.00)
+[Time 307.00]   Progress: 19/40 processes completed
+[Time 307.00]   Ready Queue: [P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 307.00]   Process P22 gets CPU for the FIRST TIME (response time = 267.00)
+[Time 332.00]   P22 runs from 307.00 to 332.00 (duration: 25)
+[Time 332.00]   [COMPLETED] P22 finished! (TAT=292.00, WT=267.00)
+[Time 332.00]   Progress: 20/40 processes completed
+[Time 332.00]   Ready Queue: [P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 332.00]   Process P6 gets CPU for the FIRST TIME (response time = 314.00)
+[Time 358.00]   P6 runs from 332.00 to 358.00 (duration: 26)
+[Time 358.00]   [COMPLETED] P6 finished! (TAT=340.00, WT=314.00)
+[Time 358.00]   Progress: 21/40 processes completed
+[Time 358.00]   Ready Queue: [P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 358.00]   Process P19 gets CPU for the FIRST TIME (response time = 345.00)
+[Time 386.00]   P19 runs from 358.00 to 386.00 (duration: 28)
+[Time 386.00]   [COMPLETED] P19 finished! (TAT=373.00, WT=345.00)
+[Time 386.00]   Progress: 22/40 processes completed
+[Time 386.00]   Ready Queue: [P12(28), P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 386.00]   Process P12 gets CPU for the FIRST TIME (response time = 349.00)
+[Time 414.00]   P12 runs from 386.00 to 414.00 (duration: 28)
+[Time 414.00]   [COMPLETED] P12 finished! (TAT=377.00, WT=349.00)
+[Time 414.00]   Progress: 23/40 processes completed
+[Time 414.00]   Ready Queue: [P18(28), P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 414.00]   Process P18 gets CPU for the FIRST TIME (response time = 374.00)
+[Time 442.00]   P18 runs from 414.00 to 442.00 (duration: 28)
+[Time 442.00]   [COMPLETED] P18 finished! (TAT=402.00, WT=374.00)
+[Time 442.00]   Progress: 24/40 processes completed
+[Time 442.00]   Ready Queue: [P34(32), P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 442.00]   Process P34 gets CPU for the FIRST TIME (response time = 439.00)
+[Time 474.00]   P34 runs from 442.00 to 474.00 (duration: 32)
+[Time 474.00]   [COMPLETED] P34 finished! (TAT=471.00, WT=439.00)
+[Time 474.00]   Progress: 25/40 processes completed
+[Time 474.00]   Ready Queue: [P21(33), P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 474.00]   Process P21 gets CPU for the FIRST TIME (response time = 447.00)
+[Time 507.00]   P21 runs from 474.00 to 507.00 (duration: 33)
+[Time 507.00]   [COMPLETED] P21 finished! (TAT=480.00, WT=447.00)
+[Time 507.00]   Progress: 26/40 processes completed
+[Time 507.00]   Ready Queue: [P26(33), P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 507.00]   Process P26 gets CPU for the FIRST TIME (response time = 475.00)
+[Time 540.00]   P26 runs from 507.00 to 540.00 (duration: 33)
+[Time 540.00]   [COMPLETED] P26 finished! (TAT=508.00, WT=475.00)
+[Time 540.00]   Progress: 27/40 processes completed
+[Time 540.00]   Ready Queue: [P32(35), P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 540.00]   Process P32 gets CPU for the FIRST TIME (response time = 518.00)
+[Time 575.00]   P32 runs from 540.00 to 575.00 (duration: 35)
+[Time 575.00]   [COMPLETED] P32 finished! (TAT=553.00, WT=518.00)
+[Time 575.00]   Progress: 28/40 processes completed
+[Time 575.00]   Ready Queue: [P5(37), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 575.00]   Process P5 gets CPU for the FIRST TIME (response time = 574.00)
+[Time 612.00]   P5 runs from 575.00 to 612.00 (duration: 37)
+[Time 612.00]   [COMPLETED] P5 finished! (TAT=611.00, WT=574.00)
+[Time 612.00]   Progress: 29/40 processes completed
+[Time 612.00]   Ready Queue: [P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 612.00]   Process P29 gets CPU for the FIRST TIME (response time = 589.00)
+[Time 650.00]   P29 runs from 612.00 to 650.00 (duration: 38)
+[Time 650.00]   [COMPLETED] P29 finished! (TAT=627.00, WT=589.00)
+[Time 650.00]   Progress: 30/40 processes completed
+[Time 650.00]   Ready Queue: [P20(39), P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 650.00]   Process P20 gets CPU for the FIRST TIME (response time = 619.00)
+[Time 689.00]   P20 runs from 650.00 to 689.00 (duration: 39)
+[Time 689.00]   [COMPLETED] P20 finished! (TAT=658.00, WT=619.00)
+[Time 689.00]   Progress: 31/40 processes completed
+[Time 689.00]   Ready Queue: [P36(40), P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 689.00]   Process P36 gets CPU for the FIRST TIME (response time = 684.00)
+[Time 729.00]   P36 runs from 689.00 to 729.00 (duration: 40)
+[Time 729.00]   [COMPLETED] P36 finished! (TAT=724.00, WT=684.00)
+[Time 729.00]   Progress: 32/40 processes completed
+[Time 729.00]   Ready Queue: [P9(41), P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 729.00]   Process P9 gets CPU for the FIRST TIME (response time = 693.00)
+[Time 770.00]   P9 runs from 729.00 to 770.00 (duration: 41)
+[Time 770.00]   [COMPLETED] P9 finished! (TAT=734.00, WT=693.00)
+[Time 770.00]   Progress: 33/40 processes completed
+[Time 770.00]   Ready Queue: [P17(42), P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 770.00]   Process P17 gets CPU for the FIRST TIME (response time = 755.00)
+[Time 812.00]   P17 runs from 770.00 to 812.00 (duration: 42)
+[Time 812.00]   [COMPLETED] P17 finished! (TAT=797.00, WT=755.00)
+[Time 812.00]   Progress: 34/40 processes completed
+[Time 812.00]   Ready Queue: [P16(42), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 812.00]   Process P16 gets CPU for the FIRST TIME (response time = 765.00)
+[Time 854.00]   P16 runs from 812.00 to 854.00 (duration: 42)
+[Time 854.00]   [COMPLETED] P16 finished! (TAT=807.00, WT=765.00)
+[Time 854.00]   Progress: 35/40 processes completed
+[Time 854.00]   Ready Queue: [P38(45), P27(45), P10(48), P24(49), P8(49)]
+[Time 854.00]   Process P38 gets CPU for the FIRST TIME (response time = 844.00)
+[Time 899.00]   P38 runs from 854.00 to 899.00 (duration: 45)
+[Time 899.00]   [COMPLETED] P38 finished! (TAT=889.00, WT=844.00)
+[Time 899.00]   Progress: 36/40 processes completed
+[Time 899.00]   Ready Queue: [P27(45), P10(48), P24(49), P8(49)]
+[Time 899.00]   Process P27 gets CPU for the FIRST TIME (response time = 883.00)
+[Time 944.00]   P27 runs from 899.00 to 944.00 (duration: 45)
+[Time 944.00]   [COMPLETED] P27 finished! (TAT=928.00, WT=883.00)
+[Time 944.00]   Progress: 37/40 processes completed
+[Time 944.00]   Ready Queue: [P10(48), P24(49), P8(49)]
+[Time 944.00]   Process P10 gets CPU for the FIRST TIME (response time = 903.00)
+[Time 992.00]   P10 runs from 944.00 to 992.00 (duration: 48)
+[Time 992.00]   [COMPLETED] P10 finished! (TAT=951.00, WT=903.00)
+[Time 992.00]   Progress: 38/40 processes completed
+[Time 992.00]   Ready Queue: [P24(49), P8(49)]
+[Time 992.00]   Process P24 gets CPU for the FIRST TIME (response time = 987.00)
+[Time 1041.00]  P24 runs from 992.00 to 1041.00 (duration: 49)
+[Time 1041.00]  [COMPLETED] P24 finished! (TAT=1036.00, WT=987.00)
+[Time 1041.00]  Progress: 39/40 processes completed
+[Time 1041.00]  Ready Queue: [P8(49)]
+[Time 1041.00]  Process P8 gets CPU for the FIRST TIME (response time = 995.00)
+[Time 1090.00]  P8 runs from 1041.00 to 1090.00 (duration: 49)
+[Time 1090.00]  [COMPLETED] P8 finished! (TAT=1044.00, WT=995.00)
+[Time 1090.00]  Progress: 40/40 processes completed
+[Time 1090.00]  === SJF NON-PREEMPTIVE SIMULATION COMPLETED ===
 
 ================================================================================
 SUMMARY STATISTICS
 ================================================================================
-Average Turnaround Time (ATT): 140.70
-Average Waiting Time (AWT):    118.65
-Average Response Time (ART):   118.65
-Total Context Switches:        19
-Total Completion Time:          441
+Average Turnaround Time (ATT): 394.23
+Average Waiting Time (AWT):    366.98
+Average Response Time (ART):   366.98
+Total Context Switches:        39
+Total Completion Time:          1090

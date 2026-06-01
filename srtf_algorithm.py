@@ -38,8 +38,8 @@ class SRTFScheduler:
                 time = procs[idx].arrival_time
                 continue
             
-            # Sort by remaining time and log queue
-            ready.sort(key=lambda x: x.remaining_time)
+            # Sort by remaining time, then arrival time (tiebreaker)
+            ready.sort(key=lambda x: (x.remaining_time, x.arrival_time))
             self.log_ready_queue(ready)
             
             # Run shortest process

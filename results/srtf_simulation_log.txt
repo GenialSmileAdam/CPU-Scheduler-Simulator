@@ -1,142 +1,275 @@
 ============================================================
 SRTF SIMULATION STARTED
 ============================================================
-[T0] P9 arrived
-[T0] P10 arrived
-  Ready Queue: [P9(5), P10(33)]
-[T0] P9 FIRST RUN (RT=0)
-[T0->1] P9 runs (rem=4)
-[PREEMPTED] P9 added back to queue
-[T1] P12 arrived
-  Ready Queue: [P9(4), P12(12), P10(33)]
-[T1->4] P9 runs (rem=1)
-[PREEMPTED] P9 added back to queue
-[T4] P5 arrived
-  Ready Queue: [P9(1), P5(7), P12(12), P10(33)]
-[T4->5] P9 runs (rem=0)
-[DONE] P9 (TAT=5, WT=0) [1/20]
-  Ready Queue: [P5(7), P12(12), P10(33)]
-[T5] P5 FIRST RUN (RT=1)
-[T5->8] P5 runs (rem=4)
+[T0] P31 arrived
+  Ready Queue: [P31(45)]
+[T0] P31 FIRST RUN (RT=0)
+[T0->1] P31 runs (rem=44)
+[PREEMPTED] P31 added back to queue
+[T1] P5 arrived
+  Ready Queue: [P5(37), P31(44)]
+[T1] P5 FIRST RUN (RT=0)
+[T1->3] P5 runs (rem=35)
 [PREEMPTED] P5 added back to queue
-[T8] P6 arrived
-[T8] P11 arrived
-  Ready Queue: [P5(4), P12(12), P10(33), P6(37), P11(37)]
-[T8->9] P5 runs (rem=3)
-[PREEMPTED] P5 added back to queue
-[T9] P7 arrived
-[T9] P8 arrived
-  Ready Queue: [P5(3), P12(12), P8(23), P10(33), P6(37), P11(37), P7(37)]
-[T9->11] P5 runs (rem=1)
-[PREEMPTED] P5 added back to queue
-[T11] P20 arrived
-  Ready Queue: [P5(1), P12(12), P20(14), P8(23), P10(33), P6(37), P11(37), P7(37)]
-[T11->12] P5 runs (rem=0)
-[DONE] P5 (TAT=8, WT=1) [2/20]
-[T12] P3 arrived
-  Ready Queue: [P12(12), P20(14), P8(23), P3(26), P10(33), P6(37), P11(37), P7(37)]
-[T12] P12 FIRST RUN (RT=11)
-[T12->13] P12 runs (rem=11)
-[PREEMPTED] P12 added back to queue
-[T13] P1 arrived
+[T3] P3 arrived
+[T3] P34 arrived
+[T3] P40 arrived
+  Ready Queue: [P40(10), P3(20), P34(32), P5(35), P31(44)]
+[T3] P40 FIRST RUN (RT=0)
+[T3->4] P40 runs (rem=9)
+[PREEMPTED] P40 added back to queue
+[T4] P4 arrived
+  Ready Queue: [P4(6), P40(9), P3(20), P34(32), P5(35), P31(44)]
+[T4] P4 FIRST RUN (RT=0)
+[T4->5] P4 runs (rem=5)
+[PREEMPTED] P4 added back to queue
+[T5] P24 arrived
+[T5] P36 arrived
+  Ready Queue: [P4(5), P40(9), P3(20), P34(32), P5(35), P36(40), P31(44), P24(49)]
+[T5->10] P4 runs (rem=0)
+[DONE] P4 (TAT=6, WT=0) [1/40]
+[T10] P38 arrived
+  Ready Queue: [P40(9), P3(20), P34(32), P5(35), P36(40), P31(44), P38(45), P24(49)]
+[T10->13] P40 runs (rem=6)
+[PREEMPTED] P40 added back to queue
 [T13] P19 arrived
-  Ready Queue: [P1(9), P12(11), P20(14), P8(23), P3(26), P10(33), P6(37), P11(37), P7(37), P19(39)]
-[T13] P1 FIRST RUN (RT=0)
-[T13->17] P1 runs (rem=5)
-[PREEMPTED] P1 added back to queue
-[T17] P2 arrived
-  Ready Queue: [P1(5), P2(5), P12(11), P20(14), P8(23), P3(26), P10(33), P6(37), P11(37), P7(37), P19(39)]
-[T17->18] P1 runs (rem=4)
-[PREEMPTED] P1 added back to queue
-[T18] P14 arrived
-  Ready Queue: [P1(4), P2(5), P12(11), P20(14), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39)]
-[T18->22] P1 runs (rem=0)
-[DONE] P1 (TAT=9, WT=0) [3/20]
-[T22] P13 arrived
-  Ready Queue: [P2(5), P12(11), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39)]
-[T22] P2 FIRST RUN (RT=5)
-[T22->23] P2 runs (rem=4)
-[PREEMPTED] P2 added back to queue
-[T23] P4 arrived
-  Ready Queue: [P2(4), P12(11), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41)]
-[T23->24] P2 runs (rem=3)
-[PREEMPTED] P2 added back to queue
-[T24] P15 arrived
-[T24] P17 arrived
-  Ready Queue: [P2(3), P17(10), P12(11), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T24->27] P2 runs (rem=0)
-[DONE] P2 (TAT=10, WT=5) [4/20]
-  Ready Queue: [P17(10), P12(11), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T27] P17 FIRST RUN (RT=3)
-[T27->28] P17 runs (rem=9)
-[PREEMPTED] P17 added back to queue
-[T28] P18 arrived
-  Ready Queue: [P17(9), P12(11), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T28->29] P17 runs (rem=8)
-[PREEMPTED] P17 added back to queue
-[T29] P16 arrived
-  Ready Queue: [P16(4), P17(8), P12(11), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T29] P16 FIRST RUN (RT=0)
-[T29->33] P16 runs (rem=0)
-[DONE] P16 (TAT=4, WT=0) [5/20]
-  Ready Queue: [P17(8), P12(11), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T33->41] P17 runs (rem=0)
-[DONE] P17 (TAT=17, WT=7) [6/20]
-  Ready Queue: [P12(11), P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T41->52] P12 runs (rem=0)
-[DONE] P12 (TAT=51, WT=39) [7/20]
-  Ready Queue: [P18(13), P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T52] P18 FIRST RUN (RT=24)
-[T52->65] P18 runs (rem=0)
-[DONE] P18 (TAT=37, WT=24) [8/20]
-  Ready Queue: [P20(14), P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T65] P20 FIRST RUN (RT=54)
-[T65->79] P20 runs (rem=0)
-[DONE] P20 (TAT=68, WT=54) [9/20]
-  Ready Queue: [P13(15), P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T79] P13 FIRST RUN (RT=57)
-[T79->94] P13 runs (rem=0)
-[DONE] P13 (TAT=72, WT=57) [10/20]
-  Ready Queue: [P8(23), P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T94] P8 FIRST RUN (RT=85)
-[T94->117] P8 runs (rem=0)
-[DONE] P8 (TAT=108, WT=85) [11/20]
-  Ready Queue: [P3(26), P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T117] P3 FIRST RUN (RT=105)
-[T117->143] P3 runs (rem=0)
-[DONE] P3 (TAT=131, WT=105) [12/20]
-  Ready Queue: [P14(27), P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T143] P14 FIRST RUN (RT=125)
-[T143->170] P14 runs (rem=0)
-[DONE] P14 (TAT=152, WT=125) [13/20]
-  Ready Queue: [P10(33), P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T170] P10 FIRST RUN (RT=170)
-[T170->203] P10 runs (rem=0)
-[DONE] P10 (TAT=203, WT=170) [14/20]
-  Ready Queue: [P6(37), P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T203] P6 FIRST RUN (RT=195)
-[T203->240] P6 runs (rem=0)
-[DONE] P6 (TAT=232, WT=195) [15/20]
-  Ready Queue: [P11(37), P7(37), P19(39), P4(41), P15(47)]
-[T240] P11 FIRST RUN (RT=232)
-[T240->277] P11 runs (rem=0)
-[DONE] P11 (TAT=269, WT=232) [16/20]
-  Ready Queue: [P7(37), P19(39), P4(41), P15(47)]
-[T277] P7 FIRST RUN (RT=268)
-[T277->314] P7 runs (rem=0)
-[DONE] P7 (TAT=305, WT=268) [17/20]
-  Ready Queue: [P19(39), P4(41), P15(47)]
-[T314] P19 FIRST RUN (RT=301)
-[T314->353] P19 runs (rem=0)
-[DONE] P19 (TAT=340, WT=301) [18/20]
-  Ready Queue: [P4(41), P15(47)]
-[T353] P4 FIRST RUN (RT=330)
-[T353->394] P4 runs (rem=0)
-[DONE] P4 (TAT=371, WT=330) [19/20]
-  Ready Queue: [P15(47)]
-[T394] P15 FIRST RUN (RT=370)
-[T394->441] P15 runs (rem=0)
-[DONE] P15 (TAT=417, WT=370) [20/20]
+  Ready Queue: [P40(6), P3(20), P19(28), P34(32), P5(35), P36(40), P31(44), P38(45), P24(49)]
+[T13->15] P40 runs (rem=4)
+[PREEMPTED] P40 added back to queue
+[T15] P17 arrived
+  Ready Queue: [P40(4), P3(20), P19(28), P34(32), P5(35), P36(40), P17(42), P31(44), P38(45), P24(49)]
+[T15->16] P40 runs (rem=3)
+[PREEMPTED] P40 added back to queue
+[T16] P27 arrived
+  Ready Queue: [P40(3), P3(20), P19(28), P34(32), P5(35), P36(40), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T16->18] P40 runs (rem=1)
+[PREEMPTED] P40 added back to queue
+[T18] P6 arrived
+  Ready Queue: [P40(1), P3(20), P6(26), P19(28), P34(32), P5(35), P36(40), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T18->19] P40 runs (rem=0)
+[DONE] P40 (TAT=16, WT=6) [2/40]
+  Ready Queue: [P3(20), P6(26), P19(28), P34(32), P5(35), P36(40), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T19] P3 FIRST RUN (RT=16)
+[T19->21] P3 runs (rem=18)
+[PREEMPTED] P3 added back to queue
+[T21] P30 arrived
+  Ready Queue: [P3(18), P30(19), P6(26), P19(28), P34(32), P5(35), P36(40), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T21->22] P3 runs (rem=17)
+[PREEMPTED] P3 added back to queue
+[T22] P32 arrived
+[T22] P39 arrived
+  Ready Queue: [P39(6), P3(17), P30(19), P6(26), P19(28), P34(32), P5(35), P32(35), P36(40), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T22] P39 FIRST RUN (RT=0)
+[T22->23] P39 runs (rem=5)
+[PREEMPTED] P39 added back to queue
+[T23] P29 arrived
+  Ready Queue: [P39(5), P3(17), P30(19), P6(26), P19(28), P34(32), P5(35), P32(35), P29(38), P36(40), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T23->27] P39 runs (rem=1)
+[PREEMPTED] P39 added back to queue
+[T27] P21 arrived
+  Ready Queue: [P39(1), P3(17), P30(19), P6(26), P19(28), P34(32), P21(33), P5(35), P32(35), P29(38), P36(40), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T27->28] P39 runs (rem=0)
+[DONE] P39 (TAT=6, WT=0) [3/40]
+  Ready Queue: [P3(17), P30(19), P6(26), P19(28), P34(32), P21(33), P5(35), P32(35), P29(38), P36(40), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T28->29] P3 runs (rem=16)
+[PREEMPTED] P3 added back to queue
+[T29] P28 arrived
+  Ready Queue: [P28(3), P3(16), P30(19), P6(26), P19(28), P34(32), P21(33), P5(35), P32(35), P29(38), P36(40), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T29] P28 FIRST RUN (RT=0)
+[T29->31] P28 runs (rem=1)
+[PREEMPTED] P28 added back to queue
+[T31] P20 arrived
+  Ready Queue: [P28(1), P3(16), P30(19), P6(26), P19(28), P34(32), P21(33), P5(35), P32(35), P29(38), P20(39), P36(40), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T31->32] P28 runs (rem=0)
+[DONE] P28 (TAT=3, WT=0) [4/40]
+[T32] P26 arrived
+  Ready Queue: [P3(16), P30(19), P6(26), P19(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T32->35] P3 runs (rem=13)
+[PREEMPTED] P3 added back to queue
+[T35] P15 arrived
+  Ready Queue: [P3(13), P30(19), P15(22), P6(26), P19(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T35->36] P3 runs (rem=12)
+[PREEMPTED] P3 added back to queue
+[T36] P9 arrived
+[T36] P13 arrived
+  Ready Queue: [P3(12), P30(19), P13(21), P15(22), P6(26), P19(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T36->37] P3 runs (rem=11)
+[PREEMPTED] P3 added back to queue
+[T37] P2 arrived
+[T37] P12 arrived
+[T37] P37 arrived
+  Ready Queue: [P3(11), P30(19), P13(21), P15(22), P37(22), P2(23), P6(26), P19(28), P12(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T37->39] P3 runs (rem=9)
+[PREEMPTED] P3 added back to queue
+[T39] P7 arrived
+[T39] P23 arrived
+[T39] P35 arrived
+  Ready Queue: [P35(8), P3(9), P23(10), P7(13), P30(19), P13(21), P15(22), P37(22), P2(23), P6(26), P19(28), P12(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T39] P35 FIRST RUN (RT=0)
+[T39->40] P35 runs (rem=7)
+[PREEMPTED] P35 added back to queue
+[T40] P18 arrived
+[T40] P22 arrived
+[T40] P33 arrived
+  Ready Queue: [P33(6), P35(7), P3(9), P23(10), P7(13), P30(19), P13(21), P15(22), P37(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P31(44), P38(45), P27(45), P24(49)]
+[T40] P33 FIRST RUN (RT=0)
+[T40->41] P33 runs (rem=5)
+[PREEMPTED] P33 added back to queue
+[T41] P10 arrived
+[T41] P14 arrived
+  Ready Queue: [P33(5), P35(7), P3(9), P23(10), P7(13), P14(14), P30(19), P13(21), P15(22), P37(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P31(44), P38(45), P27(45), P10(48), P24(49)]
+[T41->43] P33 runs (rem=3)
+[PREEMPTED] P33 added back to queue
+[T43] P11 arrived
+  Ready Queue: [P33(3), P35(7), P3(9), P23(10), P7(13), P14(14), P30(19), P11(19), P13(21), P15(22), P37(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P31(44), P38(45), P27(45), P10(48), P24(49)]
+[T43->46] P33 runs (rem=0)
+[DONE] P33 (TAT=6, WT=0) [5/40]
+[T46] P8 arrived
+  Ready Queue: [P35(7), P3(9), P23(10), P7(13), P14(14), P30(19), P11(19), P13(21), P15(22), P37(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T46->47] P35 runs (rem=6)
+[PREEMPTED] P35 added back to queue
+[T47] P16 arrived
+  Ready Queue: [P35(6), P3(9), P23(10), P7(13), P14(14), P30(19), P11(19), P13(21), P15(22), P37(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T47->50] P35 runs (rem=3)
+[PREEMPTED] P35 added back to queue
+[T50] P1 arrived
+[T50] P25 arrived
+  Ready Queue: [P35(3), P3(9), P23(10), P7(13), P14(14), P25(18), P30(19), P11(19), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T50->53] P35 runs (rem=0)
+[DONE] P35 (TAT=14, WT=6) [6/40]
+  Ready Queue: [P3(9), P23(10), P7(13), P14(14), P25(18), P30(19), P11(19), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T53->62] P3 runs (rem=0)
+[DONE] P3 (TAT=59, WT=39) [7/40]
+  Ready Queue: [P23(10), P7(13), P14(14), P25(18), P30(19), P11(19), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T62] P23 FIRST RUN (RT=23)
+[T62->72] P23 runs (rem=0)
+[DONE] P23 (TAT=33, WT=23) [8/40]
+  Ready Queue: [P7(13), P14(14), P25(18), P30(19), P11(19), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T72] P7 FIRST RUN (RT=33)
+[T72->85] P7 runs (rem=0)
+[DONE] P7 (TAT=46, WT=33) [9/40]
+  Ready Queue: [P14(14), P25(18), P30(19), P11(19), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T85] P14 FIRST RUN (RT=44)
+[T85->99] P14 runs (rem=0)
+[DONE] P14 (TAT=58, WT=44) [10/40]
+  Ready Queue: [P25(18), P30(19), P11(19), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T99] P25 FIRST RUN (RT=49)
+[T99->117] P25 runs (rem=0)
+[DONE] P25 (TAT=67, WT=49) [11/40]
+  Ready Queue: [P30(19), P11(19), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T117] P30 FIRST RUN (RT=96)
+[T117->136] P30 runs (rem=0)
+[DONE] P30 (TAT=115, WT=96) [12/40]
+  Ready Queue: [P11(19), P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T136] P11 FIRST RUN (RT=93)
+[T136->155] P11 runs (rem=0)
+[DONE] P11 (TAT=112, WT=93) [13/40]
+  Ready Queue: [P13(21), P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T155] P13 FIRST RUN (RT=119)
+[T155->176] P13 runs (rem=0)
+[DONE] P13 (TAT=140, WT=119) [14/40]
+  Ready Queue: [P15(22), P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T176] P15 FIRST RUN (RT=141)
+[T176->198] P15 runs (rem=0)
+[DONE] P15 (TAT=163, WT=141) [15/40]
+  Ready Queue: [P37(22), P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T198] P37 FIRST RUN (RT=161)
+[T198->220] P37 runs (rem=0)
+[DONE] P37 (TAT=183, WT=161) [16/40]
+  Ready Queue: [P1(22), P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T220] P1 FIRST RUN (RT=170)
+[T220->242] P1 runs (rem=0)
+[DONE] P1 (TAT=192, WT=170) [17/40]
+  Ready Queue: [P2(23), P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T242] P2 FIRST RUN (RT=205)
+[T242->265] P2 runs (rem=0)
+[DONE] P2 (TAT=228, WT=205) [18/40]
+  Ready Queue: [P22(25), P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T265] P22 FIRST RUN (RT=225)
+[T265->290] P22 runs (rem=0)
+[DONE] P22 (TAT=250, WT=225) [19/40]
+  Ready Queue: [P6(26), P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T290] P6 FIRST RUN (RT=272)
+[T290->316] P6 runs (rem=0)
+[DONE] P6 (TAT=298, WT=272) [20/40]
+  Ready Queue: [P19(28), P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T316] P19 FIRST RUN (RT=303)
+[T316->344] P19 runs (rem=0)
+[DONE] P19 (TAT=331, WT=303) [21/40]
+  Ready Queue: [P12(28), P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T344] P12 FIRST RUN (RT=307)
+[T344->372] P12 runs (rem=0)
+[DONE] P12 (TAT=335, WT=307) [22/40]
+  Ready Queue: [P18(28), P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T372] P18 FIRST RUN (RT=332)
+[T372->400] P18 runs (rem=0)
+[DONE] P18 (TAT=360, WT=332) [23/40]
+  Ready Queue: [P34(32), P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T400] P34 FIRST RUN (RT=397)
+[T400->432] P34 runs (rem=0)
+[DONE] P34 (TAT=429, WT=397) [24/40]
+  Ready Queue: [P21(33), P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T432] P21 FIRST RUN (RT=405)
+[T432->465] P21 runs (rem=0)
+[DONE] P21 (TAT=438, WT=405) [25/40]
+  Ready Queue: [P26(33), P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T465] P26 FIRST RUN (RT=433)
+[T465->498] P26 runs (rem=0)
+[DONE] P26 (TAT=466, WT=433) [26/40]
+  Ready Queue: [P5(35), P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T498->533] P5 runs (rem=0)
+[DONE] P5 (TAT=532, WT=495) [27/40]
+  Ready Queue: [P32(35), P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T533] P32 FIRST RUN (RT=511)
+[T533->568] P32 runs (rem=0)
+[DONE] P32 (TAT=546, WT=511) [28/40]
+  Ready Queue: [P29(38), P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T568] P29 FIRST RUN (RT=545)
+[T568->606] P29 runs (rem=0)
+[DONE] P29 (TAT=583, WT=545) [29/40]
+  Ready Queue: [P20(39), P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T606] P20 FIRST RUN (RT=575)
+[T606->645] P20 runs (rem=0)
+[DONE] P20 (TAT=614, WT=575) [30/40]
+  Ready Queue: [P36(40), P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T645] P36 FIRST RUN (RT=640)
+[T645->685] P36 runs (rem=0)
+[DONE] P36 (TAT=680, WT=640) [31/40]
+  Ready Queue: [P9(41), P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T685] P9 FIRST RUN (RT=649)
+[T685->726] P9 runs (rem=0)
+[DONE] P9 (TAT=690, WT=649) [32/40]
+  Ready Queue: [P17(42), P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T726] P17 FIRST RUN (RT=711)
+[T726->768] P17 runs (rem=0)
+[DONE] P17 (TAT=753, WT=711) [33/40]
+  Ready Queue: [P16(42), P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T768] P16 FIRST RUN (RT=721)
+[T768->810] P16 runs (rem=0)
+[DONE] P16 (TAT=763, WT=721) [34/40]
+  Ready Queue: [P31(44), P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T810->854] P31 runs (rem=0)
+[DONE] P31 (TAT=854, WT=809) [35/40]
+  Ready Queue: [P38(45), P27(45), P10(48), P24(49), P8(49)]
+[T854] P38 FIRST RUN (RT=844)
+[T854->899] P38 runs (rem=0)
+[DONE] P38 (TAT=889, WT=844) [36/40]
+  Ready Queue: [P27(45), P10(48), P24(49), P8(49)]
+[T899] P27 FIRST RUN (RT=883)
+[T899->944] P27 runs (rem=0)
+[DONE] P27 (TAT=928, WT=883) [37/40]
+  Ready Queue: [P10(48), P24(49), P8(49)]
+[T944] P10 FIRST RUN (RT=903)
+[T944->992] P10 runs (rem=0)
+[DONE] P10 (TAT=951, WT=903) [38/40]
+  Ready Queue: [P24(49), P8(49)]
+[T992] P24 FIRST RUN (RT=987)
+[T992->1041] P24 runs (rem=0)
+[DONE] P24 (TAT=1036, WT=987) [39/40]
+  Ready Queue: [P8(49)]
+[T1041] P8 FIRST RUN (RT=995)
+[T1041->1090] P8 runs (rem=0)
+[DONE] P8 (TAT=1044, WT=995) [40/40]
 ============================================================
 SRTF SIMULATION COMPLETED
 ============================================================
@@ -144,8 +277,8 @@ SRTF SIMULATION COMPLETED
 ============================================================
 SUMMARY STATISTICS
 ============================================================
-ATT: 140.45
-AWT: 118.40
-ART: 116.80
-Context Switches: 31
-Total Time: 441
+ATT: 380.43
+AWT: 353.18
+ART: 319.70
+Context Switches: 62
+Total Time: 1090
