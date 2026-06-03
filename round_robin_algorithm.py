@@ -22,9 +22,14 @@ def add_arrived_processes(process_list, ready_queue, current_time, logs):
         log_event(logs, current_time, f"P{process.id} arrived and entered the ready queue")
 
 
-def roundrobin(time_quantum=TIME_QUANTUM):
+def roundrobin(time_quantum=None):
     """Run Round Robin scheduling using the generated CSV process data."""
     processes = arrange_processes(get_processes())
+
+    if time_quantum is None:
+        average_burst_time = sum(p.burst_time for p in processes) / len(processes)
+        time_quantum = round(average_burst_time)
+
     process_list = processes.copy()
     ready_queue = deque()
     logs = []
@@ -33,7 +38,7 @@ def roundrobin(time_quantum=TIME_QUANTUM):
     completed_processes = 0
 
     log_event(logs, current_time, "Round Robin simulation started")
-    log_event(logs, current_time, f"Time quantum = {time_quantum}")
+    log_event(logs, current_time, f"Time quantum = {time_quantum} (average burst time)")
 
     while completed_processes < len(processes):
         add_arrived_processes(process_list, ready_queue, current_time, logs)
