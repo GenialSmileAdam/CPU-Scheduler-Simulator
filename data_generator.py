@@ -20,7 +20,7 @@ def generate_process_data(number_of_processes=NUMBER_OF_PROCESSES):
         processes.append(
             {
                 "process_id": process_id,
-                "arrival_time": 0,
+                "arrival_time": randint(ARRIVAL_TIME_MIN, ARRIVAL_TIME_MAX),
                 "burst_time": randint(BURST_TIME_MIN, BURST_TIME_MAX),
             }
         )
